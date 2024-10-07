@@ -1,0 +1,166 @@
+:root {
+    --background: #171717;
+    --foreground: #ffffff;
+}
+
+body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 125%;
+}
+
+.shelf-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}   
+
+.shelf-text-container {
+    position: absolute;
+    transform: translateY(-1000%);
+}
+
+.shelf-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#the_wall {
+    position: absolute;
+    width: 50%;
+    z-index: 2;
+    transition: 0.3s;
+}
+
+#the_wall:hover {
+    opacity: 80%;
+}
+
+#hellfire {
+    position: absolute;
+    width: 50%;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+#hellfire:hover {
+    opacity: 80%;
+}
+
+#hellfire_cutout {
+    position: absolute;
+    transform: translateX(120.5%) translateY(-232%);
+    width: 14%;
+    z-index: 3;
+    transition: 0.3s;
+}
+
+#ants_from_up_there {
+    position: absolute;
+    transform: translateX(130%) translateY(50%);
+    width: 13%;
+    z-index: 3;
+    transition: 0.3s;
+}
+
+#ants_from_up_there:hover {
+    width: 16%;
+    opacity: 80%;
+}
+
+#monomyth {
+    position: absolute;
+    transform: translateX(30%) translateY(87%);
+    width: 15%;
+    z-index: 3;
+    transition: 0.3s;
+}
+
+#monomyth:hover {
+    width: 18%;
+    opacity: 80%;
+}
+
+#out_of_time {
+    position: absolute;
+    transform: translateX(-85%) translateY(145%);
+    width: 17%;
+    z-index: 3;
+    transition: 0.3s;
+}
+
+#out_of_time:hover {
+    width: 20%;
+    opacity: 80%;
+}
+
+#toxicity {
+    position: absolute;
+    transform: translateX(5%) translateY(100%);
+    width: 25%;
+    z-index: 4;
+    transition: 0.3s;
+}
+
+#toxicity:hover {
+    width: 28%;
+    opacity: 80%;
+}
+
+#in_rainbows {
+    position: absolute;
+    transform: translateX(-50%) translateY(-85.5%);
+    width: 25%;
+    z-index: 4;
+    transition: 0.3s;
+}
+
+#in_rainbows:hover {
+    width: 28%;
+    opacity: 80%;
+}
+
+#year_of_the_snitch {
+    position: absolute;
+    transform: translateX(-300%) translateY(-320%);
+    width: 7%;
+    z-index: 4;
+    transition: 0.3s;
+}
+
+#year_of_the_snitch:hover {
+    width: 10%;
+    opacity: 80%;
+}
+
+#the_new_sound {
+    position: absolute;
+    transform: translateX(-57%) translateY(-37%);
+    width: 20%;
+    z-index: 4;
+    transition: 0.3s;
+}
+
+#the_new_sound:hover {
+    width: 23%;
+    opacity: 80%;
+}
+
+#cant_buy_a_thrill {
+    position: absolute;
+    transform: translateX(60%) translateY(-15%);
+    width: 17%;
+    z-index: 4;
+    transition: 0.3s;
+}
+
+#cant_buy_a_thrill:hover {
+    width: 20%;
+    opacity: 80%;
+}
+
