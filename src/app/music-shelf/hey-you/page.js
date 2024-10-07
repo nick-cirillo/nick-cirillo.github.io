@@ -2414,8 +2414,8 @@ export default function Page() {
           Hey, you, standing in the aisles with itchy feet and fading smiles<br/>
           Can you feel me?<br/>
           Hey, you<br/>
-          Don't help them to bury the light<br/>
-          Don't give in without a fight<br/><br/>
+          Don&apos;t help them to bury the light<br/>
+          Don&apos;t give in without a fight<br/><br/>
 
           Hey, you, out there on your own, sitting naked by the phone<br/>
           Would you touch me?<br/>
@@ -2423,18 +2423,18 @@ export default function Page() {
           Would you touch me?<br/>
           Hey you<br/>
           Would you help me to carry the stone?<br/>
-          Open your heart, I'm coming home<br/><br/>
+          Open your heart, I&apos;m coming home<br/><br/>
 
           But it was only fantasy<br/>
           The wall was too high, as you can see<br/>
           No matter how he tried, he could not break free<br/>
           And the worms ate into his brain<br/><br/>
 
-          Hey, you, out there on the road, always doing what you're told<br/>
+          Hey, you, out there on the road, always doing what you&apos;re told<br/>
           Can you help me?<br/>
           Hey, you, out there beyond the wall, breaking bottles in the hall<br/>
           Can you help me?<br/>
-          Hey, you, don't tell me there's no hope at all<br/>
+          Hey, you, don&apos;t tell me there&apos;s no hope at all<br/>
           Together we stand, divided we fall<br/><br/>
 
           (We fall, we fall, we fall, we fall, we fall, we fall, we fall, we fall...)

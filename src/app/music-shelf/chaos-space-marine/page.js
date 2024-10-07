@@ -2936,21 +2936,21 @@ export default function Page() {
       The sailor boys light up in song<br/>
       And they sing of London<br/>
       Love they made there, will it really last any time?<br/>
-      What's that that you said to me?<br/>
-      Oh, I'm a chaos space marine<br/>
+      What&apos;s that that you said to me?<br/>
+      Oh, I&apos;m a chaos space marine<br/>
       So what? I love you<br/>
-      Darling, will you take my metal hand? It's cold<br/>
+      Darling, will you take my metal hand? It&apos;s cold<br/>
       In time, you will find<br/>
       These things take up space inside your mind<br/>
       Where you could be keeping honest thoughts of the sea<br/>
       Alone<br/><br/>
 
-      So I'm lеaving this body<br/>
-      And I'm never coming home again, yеah<br/>
-      I'll bury the 'atchet<br/>
+      So I&apos;m lеaving this body<br/>
+      And I&apos;m never coming home again, yеah<br/>
+      I&apos;ll bury the &apos;atchet<br/>
       Between the window and the kingdom of men<br/>
-      Oh, I'm becoming a worm now<br/>
-      And I'm looking for a place to live, yeah<br/>
+      Oh, I&apos;m becoming a worm now<br/>
+      And I&apos;m looking for a place to live, yeah<br/>
       Here I come now<br/><br/>
       
       In time, you will find<br/>
@@ -2961,10 +2961,10 @@ export default function Page() {
       These things take you<br/>
       And now, so long chumps<br/><br/>
 
-      I'm comin' home (Oh yeah)<br/>
+      I&apos;m comin&apos; home (Oh yeah)<br/>
       Billie Eilish style<br/>
       A Concorde will fly<br/>
-      Ignore the hole I've dug again<br/>
+      Ignore the hole I&apos;ve dug again<br/>
       Oh yeah<br/>
       Oh yeah<br/>
       Oh yeah<br/>

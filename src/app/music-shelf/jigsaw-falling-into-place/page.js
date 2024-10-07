@@ -27,7 +27,7 @@ export default function Page() {
 		<span style={{color: "#61a6a7"}}>!</span>
 		<span style={{color: "#718c96"}}>`</span>
 		<span style={{color: "#7b8490"}}>`</span>
-		<span style={{color: "#878b91"}}>'</span>
+		<span style={{color: "#878b91"}}>&apos;</span>
 		<span style={{color: "#e9e259"}}>&amp;</span>
 		<span style={{color: "#98988c"}}>~</span>
 		<span style={{color: "#7f7e90"}}>`</span>
@@ -53,8 +53,8 @@ export default function Page() {
 		<span style={{color: "#d7c15e"}}>M</span>
 		<span style={{color: "#decf5c"}}>&amp;</span>
 		<span style={{color: "#c09c67"}}>g</span>
-		<span style={{color: "#a06f75"}}>'</span>
-		<span style={{color: "#a67370"}}>"</span>
+		<span style={{color: "#a06f75"}}>&apos;</span>
+		<span style={{color: "#a67370"}}>&quot;</span>
 		<span style={{color: "#eade55"}}>&amp;</span>
 		<span style={{color: "#aa8971"}}>r</span>
 		<span style={{color: "#a7686d"}}>:</span>
@@ -96,7 +96,7 @@ export default function Page() {
 			<span style={{color: "#c9c66d"}}>@</span>
 			<span style={{color: "#7b808e"}}>`</span>
 			<span style={{color: "#939b9f"}}>*</span>
-			<span style={{color: "#8b8b8f"}}>'</span>
+			<span style={{color: "#8b8b8f"}}>&apos;</span>
 			<span style={{color: "#fcf44e"}}>@</span>
 			<span style={{color: "#9d9a89"}}>~</span>
 			<span style={{color: "#838393"}}>.</span>
@@ -117,7 +117,7 @@ export default function Page() {
 			<span style={{color: "#f1e153"}}>@</span>
 			<span style={{color: "#a97471"}}>,</span>
 			<span style={{color: "#9e7176"}}>~</span>
-			<span style={{color: "#9c7278"}}>'</span>
+			<span style={{color: "#9c7278"}}>&apos;</span>
 			<span style={{color: "#9f7a76"}}>.</span>
 			<span style={{color: "#f9f04f"}}>@</span>
 			<span style={{color: "#b08b6e"}}>C</span>
@@ -165,7 +165,7 @@ export default function Page() {
 				<span style={{color: "#fcf44e"}}>@</span>
 				<span style={{color: "#9c9b8a"}}>~</span>
 				<span style={{color: "#858292"}}>.</span>
-				<span style={{color: "#878695"}}>'</span>
+				<span style={{color: "#878695"}}>&apos;</span>
 				<span style={{color: "#f9f351"}}>@</span>
 				<span style={{color: "#a5a284"}}>r</span>
 				<span style={{color: "#89898e"}}>`</span>
@@ -211,7 +211,7 @@ export default function Page() {
 					<span style={{color: "#a5a178"}}>*&nbsp;&nbsp;</span>
 					<span style={{color: "#c1bd6a"}}>8</span>
 					<span style={{color: "#a7a575"}}>*&nbsp;&nbsp;</span>
-					<span style={{color: "#9a9879"}}>"</span>
+					<span style={{color: "#9a9879"}}>&quot;</span>
 					<span style={{color: "#cbc663"}}>M</span>
 					<span style={{color: "#a5a375"}}>*&nbsp;</span>
 					<span style={{color: "#a9a773"}}>]</span>
@@ -227,7 +227,7 @@ export default function Page() {
 					<span style={{color: "#7b8a94"}}>`</span>
 					<span style={{color: "#8d9290"}}>^</span>
 					<span style={{color: "#ceca6a"}}>M&nbsp;&nbsp;&nbsp;</span>
-					<span style={{color: "#a4a383"}}>"</span>
+					<span style={{color: "#a4a383"}}>&quot;</span>
 					<span style={{color: "#c7c26e"}}>M&nbsp;</span>
 					<span style={{color: "#84838e"}}>`</span>
 					<span style={{color: "#d1ca6a"}}>M</span>
@@ -295,10 +295,10 @@ export default function Page() {
 						<span style={{color: "#949297"}}>,&nbsp;</span>
 						<span style={{color: "#929394"}}>,&nbsp;</span>
 						<span style={{color: "#8e878d"}}>`</span>
-						<span style={{color: "#979295"}}>'</span>
-						<span style={{color: "#908191"}}>'</span>
+						<span style={{color: "#979295"}}>&apos;</span>
+						<span style={{color: "#908191"}}>&apos;</span>
 						<span style={{color: "#887d91"}}>`</span>
-						<span style={{color: "#878091"}}>'</span>
+						<span style={{color: "#878091"}}>&apos;</span>
 						<span style={{color: "#847f91"}}>`</span>
 						<span style={{color: "#827d90"}}>`</span>
 						<span style={{color: "#867c90"}}>`</span>
@@ -330,11 +330,11 @@ export default function Page() {
 						<span style={{color: "#ba547a"}}>|</span>
 						<span style={{color: "#bc5475"}}>|</span>
 						<span style={{color: "#ab607e"}}>!</span>
-						<span style={{color: "#a06d7e"}}>"</span>
+						<span style={{color: "#a06d7e"}}>&quot;</span>
 						<span style={{color: "#a66a73"}}>,</span>
 						<span style={{color: "#a36d71"}}>,</span>
 						<span style={{color: "#9c7375"}}>`</span>
-						<span style={{color: "#9b7374"}}>'</span>
+						<span style={{color: "#9b7374"}}>&apos;</span>
 						<span style={{color: "#b16664"}}>!</span>
 						<br/>
 							<span style={{color: "#7390af"}}>n</span>
@@ -357,7 +357,7 @@ export default function Page() {
 							<span style={{color: "#7885a0"}}>,</span>
 							<span style={{color: "#85a7c6"}}>@</span>
 							<span style={{color: "#7784a2"}}>=</span>
-							<span style={{color: "#888a97"}}>'&nbsp;&nbsp;</span>
+							<span style={{color: "#888a97"}}>&apos;&nbsp;&nbsp;</span>
 							<span style={{color: "#818b9f"}}>j</span>
 							<span style={{color: "#7290b6"}}>w</span>
 							<span style={{color: "#89868b"}}>`&nbsp;</span>
@@ -430,7 +430,7 @@ export default function Page() {
 								<span style={{color: "#7091bb"}}>U</span>
 								<span style={{color: "#64a1df"}}>@</span>
 								<span style={{color: "#818495"}}>,&nbsp;</span>
-								<span style={{color: "#8d898b"}}>'</span>
+								<span style={{color: "#8d898b"}}>&apos;</span>
 								<span style={{color: "#8da1af"}}>]</span>
 								<span style={{color: "#65a0dd"}}>@</span>
 								<span style={{color: "#8b868f"}}>.</span>
@@ -507,14 +507,14 @@ export default function Page() {
 									<span style={{color: "#8895a7"}}>/</span>
 									<span style={{color: "#71a4d0"}}>%</span>
 									<span style={{color: "#6c9acc"}}>@&nbsp;</span>
-									<span style={{color: "#8e8590"}}>'</span>
+									<span style={{color: "#8e8590"}}>&apos;</span>
 									<span style={{color: "#8495b1"}}>]</span>
 									<span style={{color: "#65a0dd"}}>@</span>
 									<span style={{color: "#84808d"}}>`</span>
 									<span style={{color: "#867e8e"}}>`</span>
 									<span style={{color: "#858aa2"}}>j</span>
 									<span style={{color: "#63a1e0"}}>@</span>
-									<span style={{color: "#94767e"}}>'</span>
+									<span style={{color: "#94767e"}}>&apos;</span>
 									<span style={{color: "#979bba"}}>M</span>
 									<span style={{color: "#6c9ed7"}}>@</span>
 									<span style={{color: "#9a93b2"}}>p</span>
@@ -550,7 +550,7 @@ export default function Page() {
 									<span style={{color: "#779ed4"}}>@</span>
 									<span style={{color: "#6c9fdb"}}>@</span>
 									<span style={{color: "#aa93af"}}>M</span>
-									<span style={{color: "#b95c5d"}}>"</span>
+									<span style={{color: "#b95c5d"}}>&quot;</span>
 									<span style={{color: "#ab6667"}}>=</span>
 									<span style={{color: "#ac737a"}}>;</span>
 									<span style={{color: "#aa90a7"}}>|</span>
@@ -569,10 +569,10 @@ export default function Page() {
 										<span style={{color: "#3894d0"}}>l</span>
 										<span style={{color: "#369ad2"}}>%</span>
 										<span style={{color: "#51a2bc"}}>L</span>
-										<span style={{color: "#6d8b9a"}}>'</span>
+										<span style={{color: "#6d8b9a"}}>&apos;</span>
 										<span style={{color: "#748ca9"}}>j</span>
 										<span style={{color: "#659fdb"}}>@&nbsp;</span>
-										<span style={{color: "#8c909e"}}>"</span>
+										<span style={{color: "#8c909e"}}>&quot;</span>
 										<span style={{color: "#6c9ed3"}}>%</span>
 										<span style={{color: "#7190b7"}}>H</span>
 										<span style={{color: "#83828e"}}>`</span>
@@ -586,7 +586,7 @@ export default function Page() {
 										<span style={{color: "#dbd6c6"}}>@</span>
 										<span style={{color: "#9ea8be"}}>@</span>
 										<span style={{color: "#69a0da"}}>@</span>
-										<span style={{color: "#957c82"}}>'</span>
+										<span style={{color: "#957c82"}}>&apos;</span>
 										<span style={{color: "#97787d"}}>.</span>
 										<span style={{color: "#998d9e"}}>j</span>
 										<span style={{color: "#679fdc"}}>@</span>
@@ -626,8 +626,8 @@ export default function Page() {
 										<span style={{color: "#7aa0d7"}}>%</span>
 										<span style={{color: "#70a0d9"}}>@</span>
 										<span style={{color: "#d4484d"}}>H</span>
-										<span style={{color: "#a56a69"}}>"</span>
-										<span style={{color: "#a8757b"}}>"</span>
+										<span style={{color: "#a56a69"}}>&quot;</span>
+										<span style={{color: "#a8757b"}}>&quot;</span>
 										<span style={{color: "#7b9bc8"}}>%</span>
 										<span style={{color: "#8599c2"}}>N</span>
 										<span style={{color: "#9197bb"}}>m</span>
@@ -642,11 +642,11 @@ export default function Page() {
 											<span style={{color: "#5295b0"}}>!</span>
 											<span style={{color: "#6e8797"}}>`</span>
 											<span style={{color: "#7a8091"}}>`&nbsp;</span>
-											<span style={{color: "#898491"}}>'&nbsp;&nbsp;</span>
+											<span style={{color: "#898491"}}>&apos;&nbsp;&nbsp;</span>
 											<span style={{color: "#868490"}}>-&nbsp;&nbsp;</span>
 											<span style={{color: "#87848c"}}>`</span>
 											<span style={{color: "#918985"}}>.</span>
-											<span style={{color: "#938e90"}}>'</span>
+											<span style={{color: "#938e90"}}>&apos;</span>
 											<span style={{color: "#87828f"}}>-</span>
 											<span style={{color: "#b6afae"}}>]</span>
 											<span style={{color: "#f9facd"}}>$</span>
@@ -692,12 +692,12 @@ export default function Page() {
 											<span style={{color: "#e55a3c"}}>@</span>
 											<span style={{color: "#c05953"}}>|</span>
 											<span style={{color: "#bb5859"}}>|</span>
-											<span style={{color: "#a96666"}}>"</span>
+											<span style={{color: "#a96666"}}>&quot;</span>
 											<span style={{color: "#a76869"}}>,</span>
 											<span style={{color: "#a86a68"}}>;</span>
 											<span style={{color: "#a66b6a"}}>`</span>
-											<span style={{color: "#9e7271"}}>'</span>
-											<span style={{color: "#ad6767"}}>"</span>
+											<span style={{color: "#9e7271"}}>&apos;</span>
+											<span style={{color: "#ad6767"}}>&quot;</span>
 											<span style={{color: "#a3746f"}}>^</span>
 											<span style={{color: "#9f7070"}}>:</span>
 											<span style={{color: "#9c7373"}}>,</span>
@@ -764,11 +764,11 @@ export default function Page() {
 												<span style={{color: "#e05d40"}}>@</span>
 												<span style={{color: "#c85d52"}}>|</span>
 												<span style={{color: "#b95a5b"}}>L</span>
-												<span style={{color: "#a36c6c"}}>"</span>
+												<span style={{color: "#a36c6c"}}>&quot;</span>
 												<span style={{color: "#a96869"}}>,</span>
 												<span style={{color: "#ac6d66"}}>,</span>
 												<span style={{color: "#a2726e"}}>`</span>
-												<span style={{color: "#9c7473"}}>'</span>
+												<span style={{color: "#9c7473"}}>&apos;</span>
 												<span style={{color: "#9b7573"}}>,</span>
 												<span style={{color: "#bc645a"}}>j</span>
 												<span style={{color: "#c56255"}}>p</span>
@@ -789,12 +789,12 @@ export default function Page() {
 													<span style={{color: "#8e8891"}}>.</span>
 													<span style={{color: "#b07f72"}}>]</span>
 													<span style={{color: "#f56b2f"}}>@</span>
-													<span style={{color: "#ad7d70"}}>"</span>
-													<span style={{color: "#ae7c6f"}}>"</span>
+													<span style={{color: "#ad7d70"}}>&quot;</span>
+													<span style={{color: "#ae7c6f"}}>&quot;</span>
 													<span style={{color: "#dc7245"}}>%</span>
 													<span style={{color: "#c57756"}}>H</span>
-													<span style={{color: "#938f8f"}}>"</span>
-													<span style={{color: "#928891"}}>'</span>
+													<span style={{color: "#938f8f"}}>&quot;</span>
+													<span style={{color: "#928891"}}>&apos;</span>
 													<span style={{color: "#998d95"}}>:</span>
 													<span style={{color: "#de7145"}}>@</span>
 													<span style={{color: "#e66e3b"}}>N</span>
@@ -873,7 +873,7 @@ export default function Page() {
 														<span style={{color: "#e5713d"}}>@</span>
 														<span style={{color: "#b77e69"}}>C</span>
 														<span style={{color: "#86808d"}}>`</span>
-														<span style={{color: "#898591"}}>'</span>
+														<span style={{color: "#898591"}}>&apos;</span>
 														<span style={{color: "#bf7b64"}}>]</span>
 														<span style={{color: "#ea6e37"}}>@</span>
 														<span style={{color: "#a5847f"}}>,</span>
@@ -924,7 +924,7 @@ export default function Page() {
 														<span style={{color: "#e26a3d"}}>@</span>
 														<span style={{color: "#d16749"}}>M</span>
 														<span style={{color: "#a46e6c"}}>~</span>
-														<span style={{color: "#a2706d"}}>'</span>
+														<span style={{color: "#a2706d"}}>&apos;</span>
 														<span style={{color: "#c47154"}}>]</span>
 														<span style={{color: "#dc6c42"}}>M</span>
 														<span style={{color: "#da6d42"}}>N</span>
@@ -946,7 +946,7 @@ export default function Page() {
 															<span style={{color: "#d5a060"}}>@</span>
 															<span style={{color: "#f56e31"}}>@</span>
 															<span style={{color: "#99898a"}}>~</span>
-															<span style={{color: "#a37f72"}}>"</span>
+															<span style={{color: "#a37f72"}}>&quot;</span>
 															<span style={{color: "#f36d32"}}>@</span>
 															<span style={{color: "#aa867b"}}>/</span>
 															<span style={{color: "#94888e"}}>`</span>
@@ -996,7 +996,7 @@ export default function Page() {
 															<span style={{color: "#f86b2c"}}>@</span>
 															<span style={{color: "#f06532"}}>@</span>
 															<span style={{color: "#bf675e"}}>*</span>
-															<span style={{color: "#b16c64"}}>"</span>
+															<span style={{color: "#b16c64"}}>&quot;</span>
 															<span style={{color: "#c66750"}}>]</span>
 															<span style={{color: "#ec6934"}}>@</span>
 															<span style={{color: "#a66b68"}}>`</span>
@@ -1015,7 +1015,7 @@ export default function Page() {
 																<span style={{color: "#8ba1aa"}}>L</span>
 																<span style={{color: "#8e9094"}}>,</span>
 																<span style={{color: "#888c94"}}>`&nbsp;&nbsp;</span>
-																<span style={{color: "#a2a19d"}}>"</span>
+																<span style={{color: "#a2a19d"}}>&quot;</span>
 																<span style={{color: "#aba189"}}>[</span>
 																<span style={{color: "#a08882"}}>`</span>
 																<span style={{color: "#9c7f7d"}}>`&nbsp;&nbsp;</span>
@@ -1076,7 +1076,7 @@ export default function Page() {
 																<span style={{color: "#9f826f"}}>~</span>
 																<span style={{color: "#9d8471"}}>`</span>
 																<span style={{color: "#b27e61"}}>;</span>
-																<span style={{color: "#b27f61"}}>"</span>
+																<span style={{color: "#b27f61"}}>&quot;</span>
 																<span style={{color: "#ad7f65"}}>!</span>
 																<span style={{color: "#968576"}}>`</span>
 																<br/>
@@ -1085,14 +1085,14 @@ export default function Page() {
 																	<span style={{color: "#439cc6"}}>|</span>
 																	<span style={{color: "#6497a4"}}>=</span>
 																	<span style={{color: "#7b828e"}}>`&nbsp;&nbsp;</span>
-																	<span style={{color: "#888893"}}>'</span>
+																	<span style={{color: "#888893"}}>&apos;</span>
 																	<span style={{color: "#8b8a93"}}>,&nbsp;</span>
 																	<span style={{color: "#8a858f"}}>.</span>
 																	<span style={{color: "#8e8988"}}>`</span>
 																	<span style={{color: "#8d8588"}}>`</span>
-																	<span style={{color: "#92868d"}}>'</span>
+																	<span style={{color: "#92868d"}}>&apos;</span>
 																	<span style={{color: "#87808e"}}>`</span>
-																	<span style={{color: "#9c9597"}}>"</span>
+																	<span style={{color: "#9c9597"}}>&quot;</span>
 																	<span style={{color: "#958085"}}>,</span>
 																	<span style={{color: "#9a7879"}}>~</span>
 																	<span style={{color: "#ae786e"}}>j</span>
@@ -1148,8 +1148,8 @@ export default function Page() {
 																	<span style={{color: "#9e8670"}}>~</span>
 																	<span style={{color: "#9c8572"}}>:</span>
 																	<span style={{color: "#aa7f69"}}>!</span>
-																	<span style={{color: "#a08270"}}>"</span>
-																	<span style={{color: "#9f8170"}}>"</span>
+																	<span style={{color: "#a08270"}}>&quot;</span>
+																	<span style={{color: "#9f8170"}}>&quot;</span>
 																	<span style={{color: "#a08070"}}>,</span>
 																	<br/>
 																		<span style={{color: "#6ecb71"}}>%</span>
@@ -1163,7 +1163,7 @@ export default function Page() {
 																		<span style={{color: "#7aa386"}}>r&nbsp;&nbsp;</span>
 																		<span style={{color: "#84838f"}}>`</span>
 																		<span style={{color: "#888893"}}>-</span>
-																		<span style={{color: "#95979d"}}>"</span>
+																		<span style={{color: "#95979d"}}>&quot;</span>
 																		<span style={{color: "#7ac57e"}}>%</span>
 																		<span style={{color: "#6fc975"}}>R</span>
 																		<span style={{color: "#7fbc7d"}}>M</span>
@@ -1223,8 +1223,8 @@ export default function Page() {
 																		<span style={{color: "#92bf73"}}>%</span>
 																		<span style={{color: "#81c673"}}>%</span>
 																		<span style={{color: "#9aab79"}}>n</span>
-																		<span style={{color: "#9a7e73"}}>'</span>
-																		<span style={{color: "#9c7b72"}}>'</span>
+																		<span style={{color: "#9a7e73"}}>&apos;</span>
+																		<span style={{color: "#9c7b72"}}>&apos;</span>
 																		<span style={{color: "#a07e71"}}>`</span>
 																		<span style={{color: "#8d9f7f"}}>;</span>
 																		<span style={{color: "#74c374"}}>K</span>
@@ -1365,7 +1365,7 @@ export default function Page() {
 																				<span style={{color: "#c29c68"}}>%</span>
 																				<span style={{color: "#74d470"}}>@</span>
 																				<span style={{color: "#69da6f"}}>%</span>
-																				<span style={{color: "#a37b7b"}}>"</span>
+																				<span style={{color: "#a37b7b"}}>&quot;</span>
 																				<span style={{color: "#957785"}}>`</span>
 																				<span style={{color: "#8f8d8b"}}>,</span>
 																				<span style={{color: "#7f9f85"}}>,&nbsp;&nbsp;</span>
@@ -1384,15 +1384,15 @@ export default function Page() {
 																					<span style={{color: "#71b882"}}>*</span>
 																					<span style={{color: "#7f988e"}}>`&nbsp;&nbsp;</span>
 																					<span style={{color: "#838190"}}>`</span>
-																					<span style={{color: "#8e8f9a"}}>"</span>
-																					<span style={{color: "#979896"}}>"</span>
-																					<span style={{color: "#7ea581"}}>"</span>
-																					<span style={{color: "#7ea587"}}>"</span>
+																					<span style={{color: "#8e8f9a"}}>&quot;</span>
+																					<span style={{color: "#979896"}}>&quot;</span>
+																					<span style={{color: "#7ea581"}}>&quot;</span>
+																					<span style={{color: "#7ea587"}}>&quot;</span>
 																					<span style={{color: "#978591"}}>~</span>
 																					<span style={{color: "#968589"}}>,</span>
 																					<span style={{color: "#97bc7b"}}>%</span>
 																					<span style={{color: "#ca9e68"}}>@</span>
-																					<span style={{color: "#ac6a69"}}>"</span>
+																					<span style={{color: "#ac6a69"}}>&quot;</span>
 																					<span style={{color: "#a2b77c"}}>%</span>
 																					<span style={{color: "#bd9c75"}}>k</span>
 																					<span style={{color: "#d0866c"}}>@</span>
@@ -1434,13 +1434,13 @@ export default function Page() {
 																					<span style={{color: "#bcbc78"}}>%</span>
 																					<span style={{color: "#b6b47e"}}>%</span>
 																					<span style={{color: "#bf5659"}}>|</span>
-																					<span style={{color: "#a9646c"}}>"</span>
+																					<span style={{color: "#a9646c"}}>&quot;</span>
 																					<span style={{color: "#7ab27e"}}>*</span>
-																					<span style={{color: "#79aa81"}}>"&nbsp;&nbsp;&nbsp;</span>
-																					<span style={{color: "#7aa581"}}>"</span>
+																					<span style={{color: "#79aa81"}}>&quot;&nbsp;&nbsp;&nbsp;</span>
+																					<span style={{color: "#7aa581"}}>&quot;</span>
 																					<span style={{color: "#77b87d"}}>j</span>
 																					<span style={{color: "#75b87a"}}>*</span>
-																					<span style={{color: "#74b179"}}>"&nbsp;&nbsp;</span>
+																					<span style={{color: "#74b179"}}>&quot;&nbsp;&nbsp;</span>
 																					<span style={{color: "#79a07b"}}>,</span>
 																					<span style={{color: "#6eca72"}}>K</span>
 																					<br/>
@@ -1450,7 +1450,7 @@ export default function Page() {
 																						<span style={{color: "#4fa6c2"}}>k</span>
 																						<span style={{color: "#708596"}}>`</span>
 																						<span style={{color: "#80818f"}}>`&nbsp;</span>
-																						<span style={{color: "#919098"}}>"</span>
+																						<span style={{color: "#919098"}}>&quot;</span>
 																						<span style={{color: "#86838e"}}>`</span>
 																						<span style={{color: "#828190"}}>`&nbsp;</span>
 																						<span style={{color: "#9ea093"}}>=</span>
@@ -1462,7 +1462,7 @@ export default function Page() {
 																						<span style={{color: "#ac736e"}}>\</span>
 																						<span style={{color: "#b36e68"}}>/</span>
 																						<span style={{color: "#cc725f"}}>M</span>
-																						<span style={{color: "#ab686b"}}>"</span>
+																						<span style={{color: "#ab686b"}}>&quot;</span>
 																						<span style={{color: "#e07e62"}}>%</span>
 																						<span style={{color: "#ec817f"}}>B</span>
 																						<span style={{color: "#faa5a0"}}>@</span>
@@ -1499,12 +1499,12 @@ export default function Page() {
 																						<span style={{color: "#d5714e"}}>%</span>
 																						<span style={{color: "#cc5751"}}>M</span>
 																						<span style={{color: "#bd585b"}}>|</span>
-																						<span style={{color: "#a26b70"}}>"</span>
+																						<span style={{color: "#a26b70"}}>&quot;</span>
 																						<span style={{color: "#8c7e85"}}>`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 																						<span style={{color: "#8f8b8a"}}>.</span>
 																						<span style={{color: "#a59d89"}}>)</span>
 																						<span style={{color: "#979288"}}>^&nbsp;&nbsp;</span>
-																						<span style={{color: "#7b997c"}}>'</span>
+																						<span style={{color: "#7b997c"}}>&apos;</span>
 																						<br/>
 																							<span style={{color: "#bc9f59"}}>p</span>
 																							<span style={{color: "#9d8f70"}}>~&nbsp;&nbsp;</span>
@@ -1523,7 +1523,7 @@ export default function Page() {
 																							<span style={{color: "#d79848"}}>@</span>
 																							<span style={{color: "#c0865a"}}>p</span>
 																							<span style={{color: "#a8766f"}}>;</span>
-																							<span style={{color: "#a96f6d"}}>"</span>
+																							<span style={{color: "#a96f6d"}}>&quot;</span>
 																							<span style={{color: "#a96b6c"}}>;</span>
 																							<span style={{color: "#c2625c"}}>|</span>
 																							<span style={{color: "#dc9646"}}>@</span>
@@ -1589,11 +1589,11 @@ export default function Page() {
 																								<span style={{color: "#8a8a95"}}>`&nbsp;&nbsp;</span>
 																								<span style={{color: "#e4b33b"}}>$</span>
 																								<span style={{color: "#c8a65c"}}>@</span>
-																								<span style={{color: "#a08786"}}>'</span>
+																								<span style={{color: "#a08786"}}>&apos;</span>
 																								<span style={{color: "#9f837c"}}>=</span>
 																								<span style={{color: "#f3bb2c"}}>@</span>
 																								<span style={{color: "#c4855a"}}>W</span>
-																								<span style={{color: "#a36d71"}}>'</span>
+																								<span style={{color: "#a36d71"}}>&apos;</span>
 																								<span style={{color: "#c37061"}}>p</span>
 																								<span style={{color: "#db9646"}}>$</span>
 																								<span style={{color: "#eda733"}}>@</span>
@@ -1647,7 +1647,7 @@ export default function Page() {
 																									<span style={{color: "#b59a5f"}}>C&nbsp;&nbsp;</span>
 																									<span style={{color: "#f0ba2f"}}>@</span>
 																									<span style={{color: "#ad9863"}}>r</span>
-																									<span style={{color: "#9b9074"}}>'</span>
+																									<span style={{color: "#9b9074"}}>&apos;</span>
 																									<span style={{color: "#e8b538"}}>8</span>
 																									<span style={{color: "#b9c499"}}>@</span>
 																									<span style={{color: "#f0be36"}}>@</span>
@@ -1694,18 +1694,18 @@ export default function Page() {
 																									<span style={{color: "#eba73a"}}>%</span>
 																									<span style={{color: "#eeb642"}}>@</span>
 																									<span style={{color: "#af6d66"}}>*</span>
-																									<span style={{color: "#a5886b"}}>"</span>
+																									<span style={{color: "#a5886b"}}>&quot;</span>
 																									<span style={{color: "#f3bc2b"}}>@&nbsp;&nbsp;&nbsp;&nbsp;</span>
 																									<span style={{color: "#ebb734"}}>@</span>
 																									<span style={{color: "#b89c5c"}}>U&nbsp;&nbsp;</span>
 																									<span style={{color: "#f6bd29"}}>@</span>
 																									<span style={{color: "#d5ac48"}}>@</span>
 																									<span style={{color: "#cda84c"}}>@</span>
-																									<span style={{color: "#9f8f70"}}>"</span>
+																									<span style={{color: "#9f8f70"}}>&quot;</span>
 																									<span style={{color: "#ebb734"}}>@</span>
 																									<span style={{color: "#e9b635"}}>@</span>
 																									<span style={{color: "#b99e5b"}}>U&nbsp;&nbsp;&nbsp;</span>
-																									<span style={{color: "#a49367"}}>'</span>
+																									<span style={{color: "#a49367"}}>&apos;</span>
 																									<span style={{color: "#b29a5d"}}>7</span>
 																									<span style={{color: "#cba74c"}}>%</span>
 																									<span style={{color: "#e6b437"}}>@</span>
@@ -1769,7 +1769,7 @@ export default function Page() {
 																										<span style={{color: "#ebb833"}}>@&nbsp;&nbsp;</span>
 																										<span style={{color: "#ddb13f"}}>%</span>
 																										<span style={{color: "#e8b636"}}>@&nbsp;&nbsp;</span>
-																										<span style={{color: "#948c78"}}>'</span>
+																										<span style={{color: "#948c78"}}>&apos;</span>
 																										<span style={{color: "#d4ab46"}}>%</span>
 																										<span style={{color: "#cda74a"}}>N</span>
 																										<span style={{color: "#c5a450"}}>8</span>
@@ -1782,7 +1782,7 @@ export default function Page() {
 																											<span style={{color: "#c28f5f"}}>b</span>
 																											<span style={{color: "#b28565"}}>n&nbsp;&nbsp;</span>
 																											<span style={{color: "#888a84"}}>`</span>
-																											<span style={{color: "#797e94"}}>'</span>
+																											<span style={{color: "#797e94"}}>&apos;</span>
 																											<span style={{color: "#5996b9"}}>V</span>
 																											<span style={{color: "#7e9497"}}>`&nbsp;&nbsp;&nbsp;</span>
 																											<span style={{color: "#8a868f"}}>.</span>
@@ -1790,7 +1790,7 @@ export default function Page() {
 																											<span style={{color: "#8f8b8a"}}>-</span>
 																											<span style={{color: "#8d858f"}}>-&nbsp;</span>
 																											<span style={{color: "#9b807f"}}>^</span>
-																											<span style={{color: "#aa6568"}}>"</span>
+																											<span style={{color: "#aa6568"}}>&quot;</span>
 																											<span style={{color: "#b36263"}}>*</span>
 																											<span style={{color: "#b85c61"}}>)</span>
 																											<span style={{color: "#c55b58"}}>j</span>
@@ -1822,7 +1822,7 @@ export default function Page() {
 																											<span style={{color: "#d8894d"}}>@</span>
 																											<span style={{color: "#d56a4c"}}>k</span>
 																											<span style={{color: "#c05456"}}>|</span>
-																											<span style={{color: "#a3706e"}}>"</span>
+																											<span style={{color: "#a3706e"}}>&quot;</span>
 																											<br/>
 																												<span style={{color: "#d9c38f"}}>@</span>
 																												<span style={{color: "#caaf7f"}}>%</span>
@@ -1835,12 +1835,12 @@ export default function Page() {
 																												<span style={{color: "#9b7786"}}>,</span>
 																												<span style={{color: "#588db5"}}>j</span>
 																												<span style={{color: "#6f8d97"}}>,&nbsp;&nbsp;&nbsp;</span>
-																												<span style={{color: "#8c8791"}}>'&nbsp;</span>
+																												<span style={{color: "#8c8791"}}>&apos;&nbsp;</span>
 																												<span style={{color: "#9a7881"}}>,</span>
 																												<span style={{color: "#a2737b"}}>,</span>
 																												<span style={{color: "#a46d73"}}>,</span>
 																												<span style={{color: "#b9625f"}}>|</span>
-																												<span style={{color: "#a9686b"}}>"</span>
+																												<span style={{color: "#a9686b"}}>&quot;</span>
 																												<span style={{color: "#b16d6b"}}>!</span>
 																												<span style={{color: "#a96a6d"}}>;</span>
 																												<span style={{color: "#b75d5f"}}>|</span>
@@ -1884,7 +1884,7 @@ export default function Page() {
 																													<span style={{color: "#eb3838"}}>%</span>
 																													<span style={{color: "#cc5050"}}>H</span>
 																													<span style={{color: "#a56969"}}>`</span>
-																													<span style={{color: "#b7675e"}}>"</span>
+																													<span style={{color: "#b7675e"}}>&quot;</span>
 																													<span style={{color: "#f13434"}}>%</span>
 																													<span style={{color: "#b47d64"}}>C&nbsp;&nbsp;</span>
 																													<span style={{color: "#9b6d6f"}}>,</span>
@@ -1893,11 +1893,11 @@ export default function Page() {
 																													<span style={{color: "#ab6c7a"}}>r</span>
 																													<span style={{color: "#568cb7"}}>j</span>
 																													<span style={{color: "#6b909d"}}>,&nbsp;</span>
-																													<span style={{color: "#97999e"}}>"&nbsp;&nbsp;</span>
+																													<span style={{color: "#97999e"}}>&quot;&nbsp;&nbsp;</span>
 																													<span style={{color: "#cc4e54"}}>]</span>
 																													<span style={{color: "#e04244"}}>@</span>
 																													<span style={{color: "#aa6c75"}}>`</span>
-																													<span style={{color: "#b36267"}}>"</span>
+																													<span style={{color: "#b36267"}}>&quot;</span>
 																													<span style={{color: "#dd4c49"}}>%</span>
 																													<span style={{color: "#e24040"}}>@</span>
 																													<span style={{color: "#b16366"}}>*</span>
@@ -1928,7 +1928,7 @@ export default function Page() {
 																													<span style={{color: "#cb7b54"}}>%</span>
 																													<span style={{color: "#d0534f"}}>#</span>
 																													<span style={{color: "#f62f2f"}}>@</span>
-																													<span style={{color: "#ab6465"}}>"</span>
+																													<span style={{color: "#ab6465"}}>&quot;</span>
 																													<span style={{color: "#a46768"}}>`</span>
 																													<span style={{color: "#a56868"}}>`</span>
 																													<span style={{color: "#927576"}}>`&nbsp;&nbsp;&nbsp;</span>
@@ -1938,7 +1938,7 @@ export default function Page() {
 																													<span style={{color: "#e53a3b"}}>%</span>
 																													<span style={{color: "#cd4c4e"}}>H</span>
 																													<span style={{color: "#a66b6a"}}>`</span>
-																													<span style={{color: "#a96466"}}>'</span>
+																													<span style={{color: "#a96466"}}>&apos;</span>
 																													<span style={{color: "#d84446"}}>%</span>
 																													<span style={{color: "#c75051"}}>H</span>
 																													<br/>
@@ -1949,12 +1949,12 @@ export default function Page() {
 																														<span style={{color: "#d2484a"}}>M&nbsp;&nbsp;&nbsp;</span>
 																														<span style={{color: "#ee3536"}}>@</span>
 																														<span style={{color: "#a86968"}}>`</span>
-																														<span style={{color: "#9f706f"}}>'</span>
+																														<span style={{color: "#9f706f"}}>&apos;</span>
 																														<span style={{color: "#f13334"}}>@</span>
 																														<span style={{color: "#8e8191"}}>`</span>
 																														<span style={{color: "#5097bc"}}>j</span>
 																														<span style={{color: "#6c999e"}}>,&nbsp;&nbsp;</span>
-																														<span style={{color: "#8b8891"}}>'</span>
+																														<span style={{color: "#8b8891"}}>&apos;</span>
 																														<span style={{color: "#d25254"}}>]</span>
 																														<span style={{color: "#d7484a"}}>K</span>
 																														<span style={{color: "#9e8f81"}}>,&nbsp;</span>
@@ -2008,7 +2008,7 @@ export default function Page() {
 																															<span style={{color: "#c35453"}}>*</span>
 																															<span style={{color: "#d34748"}}>%</span>
 																															<span style={{color: "#dd4246"}}>@</span>
-																															<span style={{color: "#787d94"}}>'</span>
+																															<span style={{color: "#787d94"}}>&apos;</span>
 																															<span style={{color: "#4992c0"}}>l</span>
 																															<span style={{color: "#6e8c99"}}>,</span>
 																															<span style={{color: "#85838e"}}>`</span>
@@ -2019,9 +2019,9 @@ export default function Page() {
 																															<span style={{color: "#bf6e64"}}>y</span>
 																															<span style={{color: "#d24a4f"}}>g</span>
 																															<span style={{color: "#d7474b"}}>M</span>
-																															<span style={{color: "#997479"}}>'</span>
+																															<span style={{color: "#997479"}}>&apos;</span>
 																															<span style={{color: "#b67871"}}>f</span>
-																															<span style={{color: "#a26c72"}}>"</span>
+																															<span style={{color: "#a26c72"}}>&quot;</span>
 																															<span style={{color: "#b85a60"}}>|</span>
 																															<span style={{color: "#c7576d"}}>h</span>
 																															<span style={{color: "#bf5179"}}>j</span>
@@ -2067,7 +2067,7 @@ export default function Page() {
 																																<span style={{color: "#927777"}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 																																<span style={{color: "#6183ad"}}>j</span>
 																																<span style={{color: "#4c97ba"}}>F&nbsp;&nbsp;</span>
-																																<span style={{color: "#93808a"}}>'&nbsp;&nbsp;</span>
+																																<span style={{color: "#93808a"}}>&apos;&nbsp;&nbsp;</span>
 																																<span style={{color: "#987c84"}}>,&nbsp;&nbsp;</span>
 																																<span style={{color: "#8e7e87"}}>`</span>
 																																<span style={{color: "#b48877"}}>L</span>
@@ -2106,14 +2106,14 @@ export default function Page() {
 																																<br/>
 																																	<span style={{color: "#808081"}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 																																	<span style={{color: "#8e8e82"}}>-&nbsp;</span>
-																																	<span style={{color: "#777d95"}}>'</span>
+																																	<span style={{color: "#777d95"}}>&apos;</span>
 																																	<span style={{color: "#3c91c9"}}>#</span>
 																																	<span style={{color: "#608ca2"}}>~&nbsp;</span>
 																																	<span style={{color: "#84828e"}}>`&nbsp;&nbsp;&nbsp;&nbsp;</span>
 																																	<span style={{color: "#8c858a"}}>`&nbsp;&nbsp;</span>
-																																	<span style={{color: "#a47e7b"}}>"</span>
+																																	<span style={{color: "#a47e7b"}}>&quot;</span>
 																																	<span style={{color: "#9f7075"}}>`</span>
-																																	<span style={{color: "#9d7277"}}>'</span>
+																																	<span style={{color: "#9d7277"}}>&apos;</span>
 																																	<span style={{color: "#a96b6f"}}>,</span>
 																																	<span style={{color: "#ba5c6b"}}>|</span>
 																																	<span style={{color: "#ba557f"}}>j</span>
@@ -2129,12 +2129,12 @@ export default function Page() {
 																																	<span style={{color: "#b8615e"}}>L</span>
 																																	<span style={{color: "#b06264"}}>*</span>
 																																	<span style={{color: "#b16161"}}>\</span>
-																																	<span style={{color: "#a36e6a"}}>'</span>
+																																	<span style={{color: "#a36e6a"}}>&apos;</span>
 																																	<span style={{color: "#a86d64"}}>=</span>
-																																	<span style={{color: "#aa7b66"}}>"</span>
-																																	<span style={{color: "#b08366"}}>"</span>
+																																	<span style={{color: "#aa7b66"}}>&quot;</span>
+																																	<span style={{color: "#b08366"}}>&quot;</span>
 																																	<span style={{color: "#a98769"}}>r</span>
-																																	<span style={{color: "#a77669"}}>"</span>
+																																	<span style={{color: "#a77669"}}>&quot;</span>
 																																	<span style={{color: "#987776"}}>`</span>
 																																	<br/>
 																																		<span style={{color: "#817f82"}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
@@ -2154,7 +2154,7 @@ export default function Page() {
 																																		<span style={{color: "#a3c6d1"}}>&amp;</span>
 																																		<span style={{color: "#a1bfcb"}}>N</span>
 																																		<span style={{color: "#94828b"}}>,</span>
-																																		<span style={{color: "#9c7477"}}>'</span>
+																																		<span style={{color: "#9c7477"}}>&apos;</span>
 																																		<span style={{color: "#9f7075"}}>,</span>
 																																		<span style={{color: "#b85d60"}}>*</span>
 																																		<span style={{color: "#b46769"}}>)</span>
@@ -2169,7 +2169,7 @@ export default function Page() {
 																																		<span style={{color: "#c1bcc2"}}>%</span>
 																																		<span style={{color: "#bccbd4"}}>&amp;</span>
 																																		<span style={{color: "#b3c2c9"}}>N</span>
-																																		<span style={{color: "#a86f6f"}}>"</span>
+																																		<span style={{color: "#a86f6f"}}>&quot;</span>
 																																		<span style={{color: "#ad6765"}}>;</span>
 																																		<span style={{color: "#b16f67"}}>!</span>
 																																		<span style={{color: "#a86966"}}>,</span>
@@ -2203,7 +2203,7 @@ export default function Page() {
 																																			<span style={{color: "#9dbdc3"}}>g</span>
 																																			<span style={{color: "#a9d8e2"}}>@&nbsp;&nbsp;&nbsp;</span>
 																																			<span style={{color: "#afe5f0"}}>&amp;</span>
-																																			<span style={{color: "#8694a9"}}>"</span>
+																																			<span style={{color: "#8694a9"}}>&quot;</span>
 																																			<span style={{color: "#a1daeb"}}>$</span>
 																																			<span style={{color: "#9cc2c5"}}>@&nbsp;&nbsp;</span>
 																																			<span style={{color: "#848c98"}}>,</span>
@@ -2211,10 +2211,10 @@ export default function Page() {
 																																			<span style={{color: "#9c9b9d"}}>*&nbsp;&nbsp;</span>
 																																			<span style={{color: "#9cbcc8"}}>]</span>
 																																			<span style={{color: "#abd3dd"}}>@</span>
-																																			<span style={{color: "#977579"}}>'</span>
+																																			<span style={{color: "#977579"}}>&apos;</span>
 																																			<span style={{color: "#9c7175"}}>`</span>
 																																			<span style={{color: "#9f7276"}}>`</span>
-																																			<span style={{color: "#9e7277"}}>'</span>
+																																			<span style={{color: "#9e7277"}}>&apos;</span>
 																																			<span style={{color: "#b46266"}}>;</span>
 																																			<span style={{color: "#b1d3e0"}}>$</span>
 																																			<span style={{color: "#c1b7d1"}}>@</span>
@@ -2228,7 +2228,7 @@ export default function Page() {
 																																			<span style={{color: "#bad5dd"}}>$</span>
 																																			<span style={{color: "#c8c0c7"}}>@</span>
 																																			<span style={{color: "#ae6564"}}>*</span>
-																																			<span style={{color: "#a66a6a"}}>"</span>
+																																			<span style={{color: "#a66a6a"}}>&quot;</span>
 																																			<span style={{color: "#a36d6b"}}>`</span>
 																																			<span style={{color: "#a66a68"}}>,</span>
 																																			<span style={{color: "#b0756c"}}>;</span>
@@ -2262,7 +2262,7 @@ export default function Page() {
 																																				<span style={{color: "#9ac4d6"}}>@</span>
 																																				<span style={{color: "#aee6f1"}}>@</span>
 																																				<span style={{color: "#8ea1a3"}}>/&nbsp;</span>
-																																				<span style={{color: "#858d99"}}>"</span>
+																																				<span style={{color: "#858d99"}}>&quot;</span>
 																																				<span style={{color: "#afe7f3"}}>@</span>
 																																				<span style={{color: "#828591"}}>`&nbsp;</span>
 																																				<span style={{color: "#898d96"}}>,</span>
@@ -2271,7 +2271,7 @@ export default function Page() {
 																																				<span style={{color: "#93787f"}}>`</span>
 																																				<span style={{color: "#97777b"}}>`</span>
 																																				<span style={{color: "#a66f70"}}>^</span>
-																																				<span style={{color: "#a06f75"}}>'</span>
+																																				<span style={{color: "#a06f75"}}>&apos;</span>
 																																				<span style={{color: "#b0666a"}}>!</span>
 																																				<span style={{color: "#b9d6df"}}>$</span>
 																																				<span style={{color: "#bbb5d0"}}>@</span>
@@ -2313,9 +2313,9 @@ export default function Page() {
 																																					<span style={{color: "#878b8e"}}>.</span>
 																																					<span style={{color: "#878b8e"}}>,&nbsp;&nbsp;</span>
 																																					<span style={{color: "#99b5bc"}}>%&nbsp;&nbsp;</span>
-																																					<span style={{color: "#8b9699"}}>"</span>
+																																					<span style={{color: "#8b9699"}}>&quot;</span>
 																																					<span style={{color: "#97b2b7"}}>%&nbsp;</span>
-																																					<span style={{color: "#889092"}}>'</span>
+																																					<span style={{color: "#889092"}}>&apos;</span>
 																																					<span style={{color: "#9ab5ba"}}>%&nbsp;&nbsp;&nbsp;</span>
 																																					<span style={{color: "#94a1ab"}}>|</span>
 																																					<span style={{color: "#7bb0ce"}}>%</span>
@@ -2330,7 +2330,7 @@ export default function Page() {
 																																					<span style={{color: "#95777d"}}>`</span>
 																																					<span style={{color: "#98767c"}}>`</span>
 																																					<span style={{color: "#9d7376"}}>`</span>
-																																					<span style={{color: "#a16f74"}}>"</span>
+																																					<span style={{color: "#a16f74"}}>&quot;</span>
 																																					<span style={{color: "#b9aab6"}}>T</span>
 																																					<span style={{color: "#b990b5"}}>%</span>
 																																					<span style={{color: "#b75886"}}>|</span>
@@ -2346,14 +2346,14 @@ export default function Page() {
 																																					<span style={{color: "#ae6764"}}>=</span>
 																																					<span style={{color: "#a06f6e"}}>`</span>
 																																					<span style={{color: "#a76b69"}}>~</span>
-																																					<span style={{color: "#a2726f"}}>"</span>
+																																					<span style={{color: "#a2726f"}}>&quot;</span>
 																																					<span style={{color: "#b6bbbf"}}>%</span>
 																																					<span style={{color: "#a87f72"}}>\</span>
 																																					<span style={{color: "#9e826f"}}>:</span>
-																																					<span style={{color: "#9c8671"}}>'</span>
+																																					<span style={{color: "#9c8671"}}>&apos;</span>
 																																					<span style={{color: "#adac9f"}}>|</span>
 																																					<span style={{color: "#afb1b4"}}>%&nbsp;&nbsp;</span>
-																																					<span style={{color: "#8e9c9f"}}>"</span>
+																																					<span style={{color: "#8e9c9f"}}>&quot;</span>
 																																					<span style={{color: "#98b5bb"}}>T</span>
 																																					<span style={{color: "#98b6bc"}}>%</span>
 																																					<span style={{color: "#98b6bc"}}>%</span>
@@ -2361,13 +2361,13 @@ export default function Page() {
 																																					<span style={{color: "#8b9494"}}>`</span>
 																																					<span style={{color: "#8a8c8a"}}>`</span>
 																																					<span style={{color: "#9cbabf"}}>%&nbsp;&nbsp;&nbsp;</span>
-																																					<span style={{color: "#8a9597"}}>"</span>
+																																					<span style={{color: "#8a9597"}}>&quot;</span>
 																																					<span style={{color: "#98b3b8"}}>T&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 																																					<span style={{color: "#95aeb2"}}>T</span>
 																																					<span style={{color: "#98b4ba"}}>%</span>
 																																					<span style={{color: "#98b4bb"}}>%</span>
 																																					<span style={{color: "#98b3b7"}}>%</span>
-																																					<span style={{color: "#90a1a5"}}>"</span>
+																																					<span style={{color: "#90a1a5"}}>&quot;</span>
 																																					<br/>
 																																						<br/>
       </div>
@@ -2381,21 +2381,21 @@ export default function Page() {
       Just as they play your favourite song<br/>
       As your bad day disappears<br/>
       No longer wound up like a spring<br/>
-      Before you've had too much<br/>
+      Before you&apos;ve had too much<br/>
       Come back in focus again<br/>
       The walls are bending shape<br/>
-      They've got a Cheshire cat grin<br/>
+      They&apos;ve got a Cheshire cat grin<br/>
       All blurring into one<br/>
       This place is on a mission<br/>
       Before the night owl<br/>
       Before the animal noises<br/>
       Closed circuit cameras<br/>
-      Before you're comatose<br/><br/>
+      Before you&apos;re comatose<br/><br/>
 
       Before you run away from me<br/>
-      Before you're lost between the notes<br/>
-      The beat goes 'round and 'round<br/>
-      The beat goes 'round and 'round<br/>
+      Before you&apos;re lost between the notes<br/>
+      The beat goes &apos;round and &apos;round<br/>
+      The beat goes &apos;round and &apos;round<br/>
       I never really got there<br/>
       I just pretended that I had<br/>
       Words are blunt instruments<br/>
@@ -2405,7 +2405,7 @@ export default function Page() {
       Come on and let it out<br/>
       Come on and let it out<br/>
       Before you run away from me<br/>
-      Before you're lost between the notes<br/>
+      Before you&apos;re lost between the notes<br/>
       Just as you take the mic<br/>
       Just as you dance, dance, dance<br/><br/>
       

@@ -930,7 +930,7 @@ export default function Page() {
 													<span style={{color:"#fbee3b"}}>@</span>
 													<span style={{color:"#fbed37"}}>@</span>
 													<span style={{color:"#fbed37"}}>@</span>
-													<span style={{color:"#aaa96b"}}>"</span>
+													<span style={{color:"#aaa96b"}}>&quot;</span>
 													<span style={{color:"#cac45b"}}>]</span>
 													<span style={{color:"#f1db68"}}>@</span>
 													<span style={{color:"#ead18c"}}>D</span>
@@ -1046,7 +1046,7 @@ export default function Page() {
 															<span style={{color:"#a3a172"}}>`&nbsp;</span>
 															<span style={{color:"#a3a573"}}>]</span>
 															<span style={{color:"#efe255"}}>&amp;&nbsp;&nbsp;</span>
-															<span style={{color:"#a9a970"}}>"</span>
+															<span style={{color:"#a9a970"}}>&quot;</span>
 															<span style={{color:"#e0d75e"}}>F&nbsp;&nbsp;</span>
 															<span style={{color:"#f2e651"}}>&amp;</span>
 															<span style={{color:"#aca970"}}>=&nbsp;&nbsp;</span>
@@ -1082,7 +1082,7 @@ export default function Page() {
 																<span style={{color:"#e6d191"}}>@</span>
 																<span style={{color:"#f7e955"}}>@</span>
 																<span style={{color:"#c8c161"}}>L</span>
-																<span style={{color:"#a9a86e"}}>"</span>
+																<span style={{color:"#a9a86e"}}>&quot;</span>
 																<span style={{color:"#faed47"}}>@</span>
 																<span style={{color:"#faed47"}}>@</span>
 																<span style={{color:"#fbee48"}}>@</span>
@@ -1090,7 +1090,7 @@ export default function Page() {
 																<span style={{color:"#b6b46a"}}>w</span>
 																<span style={{color:"#c1bd64"}}>w</span>
 																<span style={{color:"#b6b36b"}}>g&nbsp;&nbsp;</span>
-																<span style={{color:"#a3a674"}}>"</span>
+																<span style={{color:"#a3a674"}}>&quot;</span>
 																<span style={{color:"#faed50"}}>@</span>
 																<span style={{color:"#fbee4f"}}>@</span>
 																<span style={{color:"#fbee51"}}>@</span>
@@ -1789,7 +1789,7 @@ export default function Page() {
 																									<span style={{color:"#ccc963"}}>]</span>
 																									<span style={{color:"#faed4f"}}>@</span>
 																									<span style={{color:"#b1b273"}}>j</span>
-																									<span style={{color:"#a6a974"}}>"</span>
+																									<span style={{color:"#a6a974"}}>&quot;</span>
 																									<span style={{color:"#b6b873"}}>F</span>
 																									<span style={{color:"#f6ea4f"}}>B</span>
 																									<span style={{color:"#dad15a"}}>[</span>
@@ -1821,7 +1821,7 @@ export default function Page() {
 																									<span style={{color:"#c29f61"}}>!</span>
 																									<br/>
 																										<span style={{color:"#ae977c"}}>|</span>
-																										<span style={{color:"#ac947d"}}>"</span>
+																										<span style={{color:"#ac947d"}}>&quot;</span>
 																										<span style={{color:"#ab947f"}}>|</span>
 																										<span style={{color:"#ac947e"}}>|</span>
 																										<span style={{color:"#ac947c"}}>|</span>
@@ -1899,8 +1899,8 @@ export default function Page() {
 																										<span style={{color:"#b39b6c"}}>|</span>
 																										<span style={{color:"#b59b69"}}>|</span>
 																										<br/>
-																											<span style={{color:"#a8957d"}}>"</span>
-																											<span style={{color:"#a8947c"}}>"</span>
+																											<span style={{color:"#a8957d"}}>&quot;</span>
+																											<span style={{color:"#a8947c"}}>&quot;</span>
 																											<span style={{color:"#a69281"}}>,</span>
 																											<span style={{color:"#a28e82"}}>`&nbsp;&nbsp;</span>
 																											<span style={{color:"#d2c35d"}}>J</span>
@@ -2027,7 +2027,7 @@ export default function Page() {
 																												<span style={{color:"#b69e79"}}>|</span>
 																												<span style={{color:"#b39979"}}>!</span>
 																												<span style={{color:"#ac997c"}}>!</span>
-																												<span style={{color:"#a6947c"}}>"&nbsp;</span>
+																												<span style={{color:"#a6947c"}}>&quot;&nbsp;</span>
 																												<span style={{color:"#a3937b"}}>`</span>
 																												<span style={{color:"#a9997a"}}>~</span>
 																												<span style={{color:"#b19f73"}}>;</span>
@@ -2044,12 +2044,12 @@ export default function Page() {
 																												<span style={{color:"#cec856"}}>w</span>
 																												<span style={{color:"#f6e731"}}>@</span>
 																												<span style={{color:"#baa864"}}>/</span>
-																												<span style={{color:"#a59475"}}>'</span>
-																												<span style={{color:"#a89676"}}>"</span>
-																												<span style={{color:"#a8987a"}}>"</span>
-																												<span style={{color:"#a89a7e"}}>"</span>
-																												<span style={{color:"#a99775"}}>"</span>
-																												<span style={{color:"#a69677"}}>"</span>
+																												<span style={{color:"#a59475"}}>&apos;</span>
+																												<span style={{color:"#a89676"}}>&quot;</span>
+																												<span style={{color:"#a8987a"}}>&quot;</span>
+																												<span style={{color:"#a89a7e"}}>&quot;</span>
+																												<span style={{color:"#a99775"}}>&quot;</span>
+																												<span style={{color:"#a69677"}}>&quot;</span>
 																												<span style={{color:"#a49378"}}>`</span>
 																												<br/>
 																													<span style={{color:"#9c917b"}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
@@ -2111,8 +2111,8 @@ export default function Page() {
 																													<span style={{color:"#a68f78"}}>,</span>
 																													<span style={{color:"#a79178"}}>,</span>
 																													<span style={{color:"#a79078"}}>|</span>
-																													<span style={{color:"#a79277"}}>"</span>
-																													<span style={{color:"#a79376"}}>"</span>
+																													<span style={{color:"#a79277"}}>&quot;</span>
+																													<span style={{color:"#a79376"}}>&quot;</span>
 																													<span style={{color:"#a69278"}}>`</span>
 																													<span style={{color:"#a69176"}}>`</span>
 																													<span style={{color:"#a79275"}}>:</span>
@@ -2174,20 +2174,20 @@ export default function Page() {
 																														<span style={{color:"#af957c"}}>|</span>
 																														<span style={{color:"#af957c"}}>!</span>
 																														<span style={{color:"#ad957c"}}>!</span>
-																														<span style={{color:"#ac937c"}}>"</span>
-																														<span style={{color:"#aa937d"}}>"</span>
-																														<span style={{color:"#a9927c"}}>"</span>
-																														<span style={{color:"#a8917a"}}>"</span>
-																														<span style={{color:"#a8927a"}}>"</span>
-																														<span style={{color:"#a79178"}}>"</span>
-																														<span style={{color:"#a8917b"}}>"</span>
-																														<span style={{color:"#a68e7a"}}>"</span>
+																														<span style={{color:"#ac937c"}}>&quot;</span>
+																														<span style={{color:"#aa937d"}}>&quot;</span>
+																														<span style={{color:"#a9927c"}}>&quot;</span>
+																														<span style={{color:"#a8917a"}}>&quot;</span>
+																														<span style={{color:"#a8927a"}}>&quot;</span>
+																														<span style={{color:"#a79178"}}>&quot;</span>
+																														<span style={{color:"#a8917b"}}>&quot;</span>
+																														<span style={{color:"#a68e7a"}}>&quot;</span>
 																														<span style={{color:"#a48e7a"}}>`</span>
-																														<span style={{color:"#a18d7b"}}>'</span>
+																														<span style={{color:"#a18d7b"}}>&apos;</span>
 																														<br/>
 																															<span style={{color:"#a19886"}}>;</span>
 																															<span style={{color:"#9b9282"}}>;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-																															<span style={{color:"#a3927e"}}>'</span>
+																															<span style={{color:"#a3927e"}}>&apos;</span>
 																															<span style={{color:"#ab9780"}}>!</span>
 																															<span style={{color:"#ae957f"}}>|</span>
 																															<span style={{color:"#b0957d"}}>!</span>
@@ -2289,8 +2289,8 @@ export default function Page() {
 																																<span style={{color:"#ab937d"}}>|</span>
 																																<span style={{color:"#ad937b"}}>|</span>
 																																<span style={{color:"#ad937b"}}>|</span>
-																																<span style={{color:"#aa927e"}}>"</span>
-																																<span style={{color:"#a58d82"}}>"</span>
+																																<span style={{color:"#aa927e"}}>&quot;</span>
+																																<span style={{color:"#a58d82"}}>&quot;</span>
 																																<span style={{color:"#a38b81"}}>`</span>
 																																<br/>
 																																	<span style={{color:"#cba673"}}>r</span>
@@ -2343,7 +2343,7 @@ export default function Page() {
 																																	<span style={{color:"#cfa76f"}}>H</span>
 																																	<span style={{color:"#ac947d"}}>|</span>
 																																	<span style={{color:"#a7907e"}}>:</span>
-																																	<span style={{color:"#a58f80"}}>"</span>
+																																	<span style={{color:"#a58f80"}}>&quot;</span>
 																																	<span style={{color:"#a38f83"}}>`</span>
 																																	<br/>
 																																		<span style={{color:"#c09e78"}}>l</span>
@@ -2498,10 +2498,10 @@ export default function Page() {
 																																				<span style={{color:"#b59f88"}}>|</span>
 																																				<span style={{color:"#a99a88"}}>|</span>
 																																				<span style={{color:"#a4988a"}}>~</span>
-																																				<span style={{color:"#a5988b"}}>"</span>
-																																				<span style={{color:"#a4978a"}}>"</span>
-																																				<span style={{color:"#a49789"}}>"</span>
-																																				<span style={{color:"#a79a8a"}}>"</span>
+																																				<span style={{color:"#a5988b"}}>&quot;</span>
+																																				<span style={{color:"#a4978a"}}>&quot;</span>
+																																				<span style={{color:"#a49789"}}>&quot;</span>
+																																				<span style={{color:"#a79a8a"}}>&quot;</span>
 																																				<span style={{color:"#ac9a8a"}}>|</span>
 																																				<span style={{color:"#b09c87"}}>|</span>
 																																				<span style={{color:"#b89e83"}}>|</span>
@@ -2509,7 +2509,7 @@ export default function Page() {
 																																				<span style={{color:"#bb9f83"}}>!</span>
 																																				<span style={{color:"#b49d86"}}>|</span>
 																																				<span style={{color:"#ac9988"}}>|</span>
-																																				<span style={{color:"#a89589"}}>"</span>
+																																				<span style={{color:"#a89589"}}>&quot;</span>
 																																				<span style={{color:"#a9958a"}}>|</span>
 																																				<span style={{color:"#a6958f"}}>:</span>
 																																				<span style={{color:"#a4948f"}}>~</span>
@@ -2582,20 +2582,20 @@ export default function Page() {
         Losing My Religion - R.E.M.
       </div>
     <div className="lyrics-container">
-      Oh, life, it's bigger<br/>
-      It's bigger than you<br/>
+      Oh, life, it&apos;s bigger<br/>
+      It&apos;s bigger than you<br/>
       And you are not me<br/>
       The lengths that I will go to<br/>
       The distance in your eyes<br/>
-      Oh no, I've said too much<br/>
+      Oh no, I&apos;ve said too much<br/>
       I set it up<br/>
-      That's me in the corner<br/>
-      That's me in the spotlight<br/>
-      Losin' my religion<br/>
-      Tryin' to keep up with you<br/>
-      And I don't know if I can do it<br/>
-      Oh no, I've said too much<br/>
-      I haven't said enough<br/><br/>
+      That&apos;s me in the corner<br/>
+      That&apos;s me in the spotlight<br/>
+      Losin&apos; my religion<br/>
+      Tryin&apos; to keep up with you<br/>
+      And I don&apos;t know if I can do it<br/>
+      Oh no, I&apos;ve said too much<br/>
+      I haven&apos;t said enough<br/><br/>
 
       I thought that I heard you laughing<br/>
       I thought that I heard you sing<br/>
@@ -2603,10 +2603,10 @@ export default function Page() {
 
       Every whisper<br/>
       Of every waking hour<br/>
-      I'm choosin' my confessions<br/>
-      Tryin' to keep an eye on you<br/>
+      I&apos;m choosin&apos; my confessions<br/>
+      Tryin&apos; to keep an eye on you<br/>
       Like a hurt, lost and blinded fool, fool<br/>
-      Oh no, I've said too much<br/>
+      Oh no, I&apos;ve said too much<br/>
       I set it up<br/><br/>
       
       Consider this<br/>
@@ -2615,7 +2615,7 @@ export default function Page() {
       That brought me to my knees, failed<br/>
       What if all these fantasies come<br/>
       Flailing around<br/>
-      Now, I've said too much<br/><br/>
+      Now, I&apos;ve said too much<br/><br/>
 
       I thought that I heard you laughing<br/>
       I thought that I heard you sing<br/>
@@ -2624,13 +2624,13 @@ export default function Page() {
       But that was just a dream<br/>
       That was just dream<br/><br/>
 
-      That's me in the corner<br/>
-      That's me in the spotlight<br/>
-      Losin' my religion<br/>
-      Tryin' to keep up with you<br/>
-      And I don't know if I can do it<br/>
-      Oh no, I've said too much<br/>
-      I haven't said enough<br/><br/>
+      That&apos;s me in the corner<br/>
+      That&apos;s me in the spotlight<br/>
+      Losin&apos; my religion<br/>
+      Tryin&apos; to keep up with you<br/>
+      And I don&apos;t know if I can do it<br/>
+      Oh no, I&apos;ve said too much<br/>
+      I haven&apos;t said enough<br/><br/>
     
       I thought that I heard you laughing<br/>
       I thought that I heard you sing<br/>

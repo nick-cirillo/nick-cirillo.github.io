@@ -1364,7 +1364,7 @@ export default function Page() {
 																		<span style={{color:"#b0a495"}}>|</span>
 																		<span style={{color:"#dac084"}}>[</span>
 																		<span style={{color:"#c1b690"}}>j</span>
-																		<span style={{color:"#9d9b96"}}>'</span>
+																		<span style={{color:"#9d9b96"}}>&apos;</span>
 																		<span style={{color:"#86a6bf"}}>]</span>
 																		<span style={{color:"#ecc18c"}}>@</span>
 																		<span style={{color:"#edc087"}}>@</span>
@@ -1442,10 +1442,10 @@ export default function Page() {
 																			<span style={{color:"#d0a57c"}}>@</span>
 																			<span style={{color:"#b7aa92"}}>h</span>
 																			<span style={{color:"#a4a097"}}>;</span>
-																			<span style={{color:"#9e9d98"}}>"</span>
+																			<span style={{color:"#9e9d98"}}>&quot;</span>
 																			<span style={{color:"#d7bb7b"}}>@</span>
 																			<span style={{color:"#bab295"}}>!</span>
-																			<span style={{color:"#9d9c97"}}>'</span>
+																			<span style={{color:"#9d9c97"}}>&apos;</span>
 																			<span style={{color:"#7b9abc"}}>]</span>
 																			<span style={{color:"#ecba7d"}}>@</span>
 																			<span style={{color:"#edbd78"}}>@</span>
@@ -1526,7 +1526,7 @@ export default function Page() {
 																				<span style={{color:"#a6a497"}}>|</span>
 																				<span style={{color:"#d9c17b"}}>[</span>
 																				<span style={{color:"#bab195"}}>k</span>
-																				<span style={{color:"#9c9d97"}}>'</span>
+																				<span style={{color:"#9c9d97"}}>&apos;</span>
 																				<span style={{color:"#819ebd"}}>]</span>
 																				<span style={{color:"#ecbd85"}}>@</span>
 																				<span style={{color:"#eec07d"}}>@</span>
@@ -1742,7 +1742,7 @@ export default function Page() {
 																							<span style={{color:"#bfa489"}}>]</span>
 																							<span style={{color:"#cfb78a"}}>%</span>
 																							<span style={{color:"#c8b18c"}}>M</span>
-																							<span style={{color:"#a29d94"}}>"&nbsp;</span>
+																							<span style={{color:"#a29d94"}}>&quot;&nbsp;</span>
 																							<span style={{color:"#ccb28c"}}>[</span>
 																							<span style={{color:"#efbb81"}}>%</span>
 																							<span style={{color:"#dab78b"}}>[</span>
@@ -2903,17 +2903,17 @@ export default function Page() {
       Wearing a white Stetson hat<br/><br/>
 
       Unhand that gun begone<br/>
-      There's no one to fire upon<br/>
-      If he's holding it high<br/>
-      He's telling a lie<br/><br/>
+      There&apos;s no one to fire upon<br/>
+      If he&apos;s holding it high<br/>
+      He&apos;s telling a lie<br/><br/>
 
       I heard it was you<br/>
-      Talking 'bout a world where all is free<br/>
-      It just couldn't be<br/>
+      Talking &apos;bout a world where all is free<br/>
+      It just couldn&apos;t be<br/>
       And only a fool would say that<br/><br/>
 
       The man in the street dragging his feet<br/>
-      Don't wanna hear the bad news<br/>
+      Don&apos;t wanna hear the bad news<br/>
       Imagine your face there in his place<br/>
       Standing inside his brown shoes<br/><br/>
 
@@ -2923,20 +2923,20 @@ export default function Page() {
       A man with a dream<br/><br/>
       
       I heard it was you<br/>
-      Talking 'bout a world where all is free<br/>
-      It just couldn't be<br/>
+      Talking &apos;bout a world where all is free<br/>
+      It just couldn&apos;t be<br/>
       And only a fool would say that<br/><br/>
 
       Anybody on the street<br/>
       Has murder in his eyes<br/>
       You feel no pain<br/>
-      And you're younger than you realize<br/>
+      And you&apos;re younger than you realize<br/>
       Only a fool would say that<br/>
       Only a fool<br/><br/>
 
       I heard it was you<br/>
-      Talking 'bout a world where all is free<br/>
-      It just couldn't be<br/>
+      Talking &apos;bout a world where all is free<br/>
+      It just couldn&apos;t be<br/>
       And only a fool would say that<br/><br/>
 
       Only a fool would say that<br/>
