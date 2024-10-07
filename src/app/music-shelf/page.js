@@ -22,6 +22,10 @@ export default function Page() {
                 <a id="cant_buy_a_thrill" href="./music-shelf/only-a-fool-would-say-that"><img src="album-cover-snippets/cant_buy_a_thrill.png" alt="a mouth with red lipstick and a colorful tendril emerging" /></a>
             </div>
         </div>
+        <div className="webring">
+          <a className="left-webring" href="https://kenziem67.github.io/s1fp/index.html" style={{ position: 'fixed', bottom: '10px', left: '0', margin: '10px', width: '120px', height: '40px' }}><img src="webring/kenzie.png" alt="a green arrow pointing to a red circle with the earth overlayed"/></a>
+          <a className="right-webring" href="https://shruku1235.github.io/s1fp/" style={{ position: 'fixed', bottom: '0', right: '0', margin: '10px', width: '75px', height: '75px' }}><img src="webring/shruthi.png" alt="a hand pointing right while holding a plastic cup of coffee"/></a>
+        </div>
       </div>
     );
 }
