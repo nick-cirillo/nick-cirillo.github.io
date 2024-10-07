@@ -2679,7 +2679,7 @@ export default function Page() {
           </div>
 
       <div className="lyrics-container">
-        We&apos;re rolling "Suicide"<br/><br/>
+        We&apos;re rolling &quot;Suicide&quot;<br/><br/>
 
         Wake up (Wake up)<br/>
         Grab a brush and put a little makeup<br/>

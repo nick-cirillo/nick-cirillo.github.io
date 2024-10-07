@@ -1708,7 +1708,7 @@ export default function Page() {
       How much will that cost?<br/>
       I want you to look unsure of yourself<br/>
       And I want you to look at me as if I&apos;m attractive<br/>
-      I want your eyes to say, "Take me"<br/>
+      I want your eyes to say, &quot;Take me&quot;<br/>
       And I want your lips to be unimpressed<br/>
       And I want you to ask the waiter if I really am who I say I am<br/>
       And I want you to blush<br/>
