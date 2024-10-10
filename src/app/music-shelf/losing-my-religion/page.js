@@ -1,5 +1,57 @@
+'use client'; 
+
 import "../lyric-page.css";
-export default function Page() {
+import { useEffect, useRef, useState } from 'react';
+
+const Page = () => {
+	const playerRef = useRef(null);  // Reference for the iframe element
+	const [player, setPlayer] = useState(null);  // State to hold the YouTube player object
+	const [isPlaying, setIsPlaying] = useState(false);  // State to track whether the video is playing
+  
+	// Load the YouTube IFrame API when the component mounts
+	useEffect(() => {
+		const tag = document.createElement('script');
+		tag.src = 'https://www.youtube.com/iframe_api';
+		const firstScriptTag = document.getElementsByTagName('script')[0];
+		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+	
+		window.onYouTubeIframeAPIReady = () => {
+		  const newPlayer = new window.YT.Player('youtube-player', {
+			height: '360',
+			width: '640',
+			videoId: 'Efa6BAWPm9o',
+			playerVars: {
+			  'playsinline': 1,
+			  'enablejsapi': 1,
+			},
+			events: {
+			  'onReady': (event) => {
+				setPlayer(event.target);
+			  },
+			  'onStateChange': (event) => {
+				setIsPlaying(event.data === window.YT.PlayerState.PLAYING);
+			  }
+			}
+		  });
+		};
+	
+		return () => {
+		  window.onYouTubeIframeAPIReady = null;
+		};
+	  }, []);
+  
+	// Function to toggle play/pause
+	const handlePlayPause = () => {
+	  if (player) {
+		if (isPlaying) {
+		  player.pauseVideo();  // Pause the video if it's currently playing
+		} else {
+		  player.playVideo();  // Play the video if it's currently paused
+		}
+		setIsPlaying(!isPlaying);  // Toggle the play/pause state
+	  }
+	};
+
   return (
     <div className="container-spacer">
       <div className="album-cover-container">
@@ -2581,6 +2633,15 @@ export default function Page() {
       <div className="title-container">
         Losing My Religion - R.E.M.
       </div>
+	  <div className="music-player">
+			<button onClick={handlePlayPause}>
+        		{isPlaying ? 'Pause' : 'Play'}
+      		</button>
+			<div style={{ position: 'absolute', visibility: 'hidden', height: 0 }}>
+			{/* <div style={{ width: '640px', height: '360px' }}> */}
+          		<div id="youtube-player"></div>
+        	</div>
+		</div>
     <div className="lyrics-container">
       Oh, life, it&apos;s bigger<br/>
       It&apos;s bigger than you<br/>
@@ -2646,3 +2707,6 @@ export default function Page() {
     </div>
   );
 }
+
+export default Page;
+
