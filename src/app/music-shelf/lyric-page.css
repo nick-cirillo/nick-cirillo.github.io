@@ -10,6 +10,15 @@ font-family: 'Times New Roman', Times, serif;
 font-weight: bold;
 }
 
+#back-button {
+    color: var(--foreground);
+    text-decoration: none;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 20px;
+}
+
 .container-spacer {
     display: flex;
     flex-direction: column;

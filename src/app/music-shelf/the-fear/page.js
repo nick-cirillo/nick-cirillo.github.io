@@ -53,6 +53,10 @@ const Page = () => {
 	};
 
   return (
+	<div>
+	<div className="back-button-container">
+		<a id="back-button" href="/music-shelf" className="back-button">&#x2190;</a>
+	</div>
     <div className="container-spacer">
       <div className="album-cover-container">
 		<span></span>
@@ -2766,6 +2770,7 @@ const Page = () => {
     
       </div>
     </div>
+	</div>
   );
 }
 
