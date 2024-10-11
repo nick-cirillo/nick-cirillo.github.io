@@ -7,7 +7,7 @@ export default function Home() {
     <div className="app-content">
     <p>this is my cool site</p>
     
-    <p>check out the <a href="./music-shelf">music shelf</a></p>
+    <p>check out my <a href="./music-shelf">music mashup</a></p>
     </div>
 
 
