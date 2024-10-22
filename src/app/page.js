@@ -12,7 +12,7 @@ export default function Home() {
 
         <p>or my <a href="./landscapes">landscape photography</a> sampler</p>
 
-        <p>or if you're here for professional stuff, my <a href="https://linkedin.com/in/nicholas-cirillo-/linkedin" target="_blank" rel="noopener noreferrer">linkedin</a> and <a href="https/github.io/nick-cirillo" target="_blank" rel="noopener noreferrer">github</a></p>
+        <p>or if you&apos;re here for professional stuff, my <a href="https://linkedin.com/in/nicholas-cirillo-/linkedin" target="_blank" rel="noopener noreferrer">linkedin</a> and <a href="https/github.io/nick-cirillo" target="_blank" rel="noopener noreferrer">github</a></p>
       </div>
       <div className="image">
         <img id="timber" src="./homepage/timber.jpg" alt="a photo of Timber, the world's cutest puppy"/>
