@@ -5,10 +5,20 @@ import "./globals.css";
 export default function Home() {
   return (
     <div className="app-content">
-    <p>this is my cool site</p>
-    
-    <p>check out my <a href="./music-shelf">music mashup</a></p>
+      <div className="text-content">
+        <p>this is nick cirillo's cool site</p>
+        
+        <p>check out my <a href="./music-shelf">music point-and-click</a></p>
+
+        <p>or my <a href="./landscapes">landscape photography</a> sampler</p>
+
+        <p>or if you want professional stuff, my <a href="https://linkedin.com/in/nicholas-cirillo-/linkedin" target="_blank" rel="noopener noreferrer">linkedin</a> and <a href="https/github.io/nick-cirillo" target="_blank" rel="noopener noreferrer">github</a></p>
+      </div>
+      <div className="image">
+        <img id="timber" src="./homepage/timber.jpg" alt="a photo of Timber, the world's cutest puppy"/>
+      </div>
     </div>
+    
 
 
 

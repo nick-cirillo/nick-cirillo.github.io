@@ -4,9 +4,12 @@ import Link from 'next/link';
 export default function Page() {
     return (
       <div>
+        <div className="back-button-container">
+		        <a id="back-button" href="/" className="back-button">&#x2190;</a>
+	      </div>
         <div className="shelf-container">
             <div className="shelf-text-container">
-                <span id="shelf-text-title">this is my music mashup</span>
+                <span id="shelf-text-title">this is my music point-and-click</span>
                 can you find all 10 tracks?
             </div>
             <div className="shelf-image-container">

@@ -2428,7 +2428,7 @@ const Page = () => {
 																																						<br/>
       </div>
       <div className="title-container">
-            Jigsaw Falling Into PLace - Radiohead
+            Jigsaw Falling Into Place - Radiohead
           </div>
 		  <div className="music-player">
 			<button onClick={handlePlayPause}>

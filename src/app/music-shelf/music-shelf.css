@@ -1,14 +1,24 @@
 :root {
-    --background: #171717;
+    --background: #000000;
     --foreground: #ffffff;
 }
+
 
 body {
     color: var(--foreground);
     background: var(--background);
     font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: calc(15px + 0.5vh);
+}
+
+#back-button {
+    color: var(--foreground);
+    text-decoration: none;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 20px;
 }
 
 .shelf-container {
@@ -32,6 +42,7 @@ body {
 
 #shelf-text-title {
     font-size: calc(20px + 0.5vh);
+    margin-top: 10px;
 }
 
 .shelf-image-container {
@@ -183,7 +194,7 @@ body {
     }
     
     .shelf-text-container {
-        text-align: center;
+        text-align: left;
     }
 
     #the_wall {
@@ -226,7 +237,6 @@ body {
     
     #ants_from_up_there:hover {
         width: 23%;
-        opacity: 80%;
     }
     
     #monomyth {
@@ -239,7 +249,6 @@ body {
     
     #monomyth:hover {
         width: 25.5%;
-        opacity: 80%;
     }
     
     #out_of_time {
@@ -252,7 +261,6 @@ body {
     
     #out_of_time:hover {
         width: 29%;
-        opacity: 80%;
     }
     
     #toxicity {
@@ -265,7 +273,6 @@ body {
     
     #toxicity:hover {
         width: 38%;
-        opacity: 80%;
     }
     
     #in_rainbows {
@@ -278,7 +285,6 @@ body {
     
     #in_rainbows:hover {
         width: 40.5%;
-        opacity: 80%;
     }
     
     #year_of_the_snitch {
@@ -291,7 +297,6 @@ body {
     
     #year_of_the_snitch:hover {
         width: 13.5%;
-        opacity: 80%;
     }
     
     #the_new_sound {
@@ -304,7 +309,6 @@ body {
     
     #the_new_sound:hover {
         width: 33%;
-        opacity: 80%;
     }
     
     #cant_buy_a_thrill {
@@ -317,7 +321,6 @@ body {
     
     #cant_buy_a_thrill:hover {
         width: 28%;
-        opacity: 80%;
     }
 
     #webring-text {

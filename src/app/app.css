@@ -1,6 +1,37 @@
 .app-content {
     display: flex;
+    justify-content: center;
+}
+
+.text-content {
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
+    padding: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+body {
+    background-color: #faf9eb;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 40%;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .app-content {
+        flex-direction: column;
+    }
+
+    .image {
+        width: 100%;
+    }
 }
