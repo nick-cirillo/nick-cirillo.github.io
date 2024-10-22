@@ -71,6 +71,14 @@ body {
 }
 
 @media(max-width: 768px) {
+
+    #title-text {
+        font-family: serif;
+        font-size: 25px;
+        margin-top: 5%;
+        text-align: center;
+    }
+
     .image-container {
         width: 80%;
         margin: 10%;
