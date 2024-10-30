@@ -12,6 +12,8 @@ export default function Home() {
 
         <p>or my <a href="./landscapes">landscape photography</a> sampler</p>
 
+        <p>or my <a href="./clock">interpretive clock... game?</a></p>
+
         <p>or if you&apos;re here for professional stuff, my <a href="https://linkedin.com/in/nicholas-cirillo-/" target="_blank" rel="noopener noreferrer">linkedin</a> and <a href="https://github.com/nick-cirillo" target="_blank" rel="noopener noreferrer">github</a></p>
       </div>
       <div className="image">
