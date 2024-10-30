@@ -34,17 +34,24 @@ body {
     overflow: hidden;
 }
 
+#zoom-text {
+    display: none;
+}
+
 @media(max-width: 939px) {
     #mobile-text {
         display: flex;
         position: absolute;
         top: 50%;
         color: white;
-        text-align: left;
+        text-align: center;
         font-size: 5vw;
         
     }    
     #clock-embed {
+        display: none;
+    }
+    #zoom-text {
         display: none;
     }
 }
