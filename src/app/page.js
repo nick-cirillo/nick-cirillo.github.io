@@ -1,24 +1,25 @@
-import Image from "next/image";
 import "./app.css";
 import "./globals.css";
 
 export default function Home() {
   return (
+    <div>
     <div className="app-content">
       <div className="text-content">
         <p>this is nick cirillo&apos;s cool site</p>
         
-        <p>check out my <a href="./music-shelf">music point-and-click</a></p>
+        <p>if you&apos;re here for professional stuff, my <a href="https://linkedin.com/in/nicholas-cirillo-/" target="_blank" rel="noopener noreferrer">linkedin</a> and <a href="https://github.com/nick-cirillo" target="_blank" rel="noopener noreferrer">github</a></p>
 
-        <p>or my <a href="./landscapes">landscape photography</a> sampler</p>
+        <p>or, check out my <a href="./music-shelf">music point-and-click</a></p>
 
-        <p>or my <a href="./clock">interpretive clock... game?</a></p>
+        <p>or my <a href="./landscapes">landscape photography</a></p>
 
-        <p>or if you&apos;re here for professional stuff, my <a href="https://linkedin.com/in/nicholas-cirillo-/" target="_blank" rel="noopener noreferrer">linkedin</a> and <a href="https://github.com/nick-cirillo" target="_blank" rel="noopener noreferrer">github</a></p>
+        <p>or my <a href="./clock">&apos;clock,&apos; a game about time</a></p>
       </div>
       <div className="image">
         <img id="timber" src="./homepage/timber.jpg" alt="a photo of Timber, the world's cutest puppy"/>
       </div>
+    </div>
     </div>
     
 

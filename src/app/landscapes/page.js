@@ -1,4 +1,3 @@
-import Image from "next/image";
 import "./landscapes.css";
 
 export default function Home() {

@@ -29,7 +29,7 @@ export default function Page() {
         <div className="webring">
           <a id="left-webring" href="https://kenziem67.github.io/s1fp/index.html" style={{ position: 'fixed', bottom: '10px', left: '0', margin: '10px', width: '120px', height: '40px' }}><img src="webring/kenzie.png" alt="a green arrow pointing to a red circle with the earth overlayed"/></a>
           <a id="right-webring" href="https://shruku1235.github.io/s1fp/" style={{ position: 'fixed', bottom: '0', right: '0', margin: '10px', width: '75px', height: '75px' }}><img src="webring/shruthi.png" alt="a hand pointing right while holding a plastic cup of coffee"/></a>
-          <span id="webring-text">&#x2190; why not check out <a href="https://www.design.upenn.edu/courses/dsgn-1020">our</a> little webring? &#x2192;</span>
+          <span id="webring-text">&#x2190; why not check out <a href="https://www.design.upenn.edu/courses/dsgn-1020">our</a> webring? &#x2192;</span>
         </div>
       </div>
     );
