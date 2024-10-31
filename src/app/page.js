@@ -4,6 +4,7 @@ import "./globals.css";
 export default function Home() {
   return (
     <div>
+      <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
     <div className="app-content">
       <div className="text-content">
         <p>this is nick cirillo&apos;s cool site</p>
@@ -14,7 +15,17 @@ export default function Home() {
 
         <p>or my <a href="./landscapes">landscape photography</a></p>
 
-        <p>or my <a href="./clock">&apos;clock,&apos; a game about time</a></p>
+        <p>or my <a href="./clock">&apos;clock&apos; - game about time</a></p>
+
+        <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="nicholas-cirillo-" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/nicholas-cirillo-?trk=profile-badge"></a></div>
+
+        {/* <br></br> */}
+        
+        <div id="social-icons">
+          <a className="social-icon" href="https://linkedin.com/in/nicholas-cirillo-/" target="_blank" rel="noopener noreferrer"><img id="linkedin" src="./social-icons/linkedin.svg" alt="the Linkedin logo"/></a>
+          <a className="social-icon" href="https://github.com/nick-cirillo/" target="_blank" rel="noopener noreferrer"><img id="github" src="./social-icons/github.svg" alt="the GitHub logo"/></a>
+          <a className="social-icon" href="https://instagram.com/nick.p.cirillo/" target="_blank" rel="noopener noreferrer"><img id="instagram" src="./social-icons/instagram.svg" alt="the Instagram logo"/></a>
+        </div>
       </div>
       <div className="image">
         <img id="timber" src="./homepage/timber.jpg" alt="a photo of Timber, the world's cutest puppy"/>
