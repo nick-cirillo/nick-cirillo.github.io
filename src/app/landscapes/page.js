@@ -8,7 +8,7 @@ export default function Home() {
     </div>
     <div className="landscape-grid">
         <div className="landscape-row">
-            <div id="title-text">here&apos;s a sampling of my landscape photography</div>
+            <div id="title-text">here&apos;s a collection of my landscape photography</div>
         </div>
         <div className="landscape-row">
             <div className="image-container">

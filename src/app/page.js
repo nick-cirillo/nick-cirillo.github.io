@@ -4,20 +4,22 @@ import "./globals.css";
 export default function Home() {
   return (
     <div>
-      <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+      {/* <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script> */}
     <div className="app-content">
       <div className="text-content">
-        <p>this is nick cirillo&apos;s cool site</p>
+        <p className="title-text">nick cirillo&apos;s cool site</p>
         
         <p>if you&apos;re here for professional stuff, my <a href="https://linkedin.com/in/nicholas-cirillo-/" target="_blank" rel="noopener noreferrer">linkedin</a> and <a href="https://github.com/nick-cirillo" target="_blank" rel="noopener noreferrer">github</a></p>
 
-        <p>or, check out my <a href="./music-shelf">music point-and-click</a></p>
+        <p>or, check out my <a href="./music-shelf">interactive album art collage,</a></p>
 
-        <p>or my <a href="./landscapes">landscape photography</a></p>
+        <p>a collection of my <a href="./landscapes">landscape photography,</a></p>
 
-        <p>or my <a href="./clock">&apos;clock&apos; - game about time</a></p>
+        <p>a <a href="./clock">&apos;game&apos; about wasting time,</a></p>
 
-        <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="nicholas-cirillo-" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/nicholas-cirillo-?trk=profile-badge"></a></div>
+        <p>or my friends' rock-paper-scissors <a href="./tournament">tournament</a></p>
+
+        {/* <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="nicholas-cirillo-" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/nicholas-cirillo-?trk=profile-badge"></a></div> */}
 
         {/* <br></br> */}
         

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=Knewave&family=Plaster&family=Rubik+Distressed&display=swap');
+body {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#back-button {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 20px;
+}
+
+#page-container {
+    display: flex;
+    justify-content: center;
+}
+
+#content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-text {
+    margin: 2vh;
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subtitle-text {
+    color: white;
+    font-style: italic;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#rock-text {
+    color: #8a8988;
+    font-family: 'Rubik Distressed', 'Segoe UI', sans-serif;
+}
+
+#paper-text {
+    color: rgb(255, 247, 233);
+    font-family: 'Papyrus', 'Segoe UI', sans-serif;
+    font-size: 6vw;
+}
+
+#scissors-text {
+    color: #028be4;
+    font-family: 'Plaster', 'Segoe UI', sans-serif;
+
+}
+
+#shoot-text {
+    color: rgb(179, 0, 0);
+    font-family: 'Asset', 'Segoe UI', sans-serif;
+}
+
+#rps-video {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 5px;
+}
+
+@media(max-width: 800px) {
+    #rps-video {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .subtitle-text {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

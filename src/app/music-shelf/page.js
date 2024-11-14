@@ -9,8 +9,8 @@ export default function Page() {
 	      </div>
         <div className="shelf-container">
             <div className="shelf-text-container">
-                <span id="shelf-text-title">this is my music point-and-click</span>
-                can you find all 10 tracks?
+                <span id="shelf-text-title">this is my interactive album art collage</span>
+                can you find and click all 10 tracks?
             </div>
             <div className="shelf-image-container">
                 <Link id="the_wall" href="./music-shelf/hey-you"><img src="album-cover-snippets/the_wall.png" alt="a plain white brick wall with bricks missing on the diagonal axis" /></Link>
