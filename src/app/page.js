@@ -17,7 +17,7 @@ export default function Home() {
 
         <p>a <a href="./clock">&apos;game&apos; about wasting time,</a></p>
 
-        <p>or my friends' rock-paper-scissors <a href="./tournament">tournament</a></p>
+        <p>or my friends&apos; rock-paper-scissors <a href="./tournament">tournament</a></p>
 
         {/* <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="nicholas-cirillo-" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/nicholas-cirillo-?trk=profile-badge"></a></div> */}
 
