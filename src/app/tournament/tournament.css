@@ -13,8 +13,10 @@ body {
     text-decoration: none;
     position: absolute;
     left: 20px;
-    top: 10px;
+    top: 10px;  
     font-size: 20px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
 }
 
 #page-container {
