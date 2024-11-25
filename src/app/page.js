@@ -7,7 +7,7 @@ export default function Home() {
       {/* <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script> */}
     <div className="app-content">
       <div className="text-content">
-        <p className="title-text">nick cirillo&apos;s cool site</p>
+        <p className="title-text">nick cirillo&apos;s cool site (WIP)</p>
         
         <p>if you&apos;re here for professional stuff, my <a href="https://linkedin.com/in/nicholas-cirillo-/" target="_blank" rel="noopener noreferrer">linkedin</a> and <a href="https://github.com/nick-cirillo" target="_blank" rel="noopener noreferrer">github</a></p>
 
@@ -17,7 +17,9 @@ export default function Home() {
 
         <p>a <a href="./clock">&apos;game&apos; about wasting time,</a></p>
 
-        <p>or my friends&apos; rock-paper-scissors <a href="./tournament">tournament</a></p>
+        <p>or my team&apos;s rock-paper-scissors <a href="./tournament">tournament</a></p>
+
+        <p>or my team&apos;s mcdonald&apos;s + slack <a href="https://quinn2liu.github.io/section3assignment2/index.html" target="_blank" rel="noopener noreferrer">applet</a></p>
 
         {/* <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="nicholas-cirillo-" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/nicholas-cirillo-?trk=profile-badge"></a></div> */}
 
