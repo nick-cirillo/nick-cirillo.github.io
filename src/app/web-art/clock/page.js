@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from "react";
-import "./generative-art.css";
+import "./clock.css";
 
 export default function Home() {
   const [hydrated, setHydrated] = useState(false);
@@ -17,10 +17,10 @@ export default function Home() {
       p5Script.async = true;
       document.body.appendChild(p5Script);
 
-      const generativeArtScript = document.createElement('script');
-      generativeArtScript.src = "./scripts/generative-art.js";
-      generativeArtScript.async = true;
-      document.body.appendChild(generativeArtScript);
+      const pongClockScript = document.createElement('script');
+      pongClockScript.src = "/scripts/pong-clock.js";
+      pongClockScript.async = true;
+      document.body.appendChild(pongClockScript);
     };
 
     // Only load scripts after hydration
@@ -43,9 +43,11 @@ export default function Home() {
     <div>
       <meta charSet="utf-8" />
       <div className="back-button-container">
-        <a id="back-button" href="/" className="back-button">&#x2190;</a>
-        <div id="mobile-text">try this one out on a computer!</div>
+        <a id="back-button" href="./" className="back-button">&#x2190;</a>
       </div>
+      <div id="mobile-text">try this one out on a computer!</div>
+      <div id="game-container"></div>
+      <div id="zoom-text">zoom in!</div>
     </div>
   );
 }

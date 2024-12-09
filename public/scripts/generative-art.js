@@ -10,7 +10,7 @@ let isTyping = false;
 let shapes = [];
 
 function preload() {
-  transportM = loadFont('./fonts/transportm.ttf');
+  transportM = loadFont('/fonts/transportm.ttf');
 }
 
 function setup() {
