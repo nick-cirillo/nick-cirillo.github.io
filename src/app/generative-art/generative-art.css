@@ -13,6 +13,15 @@ body {
     font-size: 20px;
     font-family: "Old Standard TT", serif;
     font-weight: 700;
+    z-index: 2;
+}
+
+#back-button:hover {
+    color: black;
+}
+
+#back-button:hover + .back-circle {
+    background-color: white !important;
 }
 
 #mobile-text {
