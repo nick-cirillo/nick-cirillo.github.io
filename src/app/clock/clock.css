@@ -6,6 +6,11 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+button {
+    background-color: white;
+    color: black;
+}
+
 #back-button {
     color: white;
     text-decoration: none;
@@ -21,23 +26,28 @@ body {
     display: flex;
     justify-content: center;
 }
+/* 
+canvas {
+    border-color: #454545;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 10px;
+    outline-offset: 0px;
+} */
 
 #mobile-text {
     display: none;
 }
 
-#clock-embed {
-    /* margin-top: -52px; */
+/* #clock-embed {
     border-color: #454545;
     border-radius: 10px;
     border-style: solid;
     border-width: 10px;
-    /* width: 800px; 
-    height: 442px;  */
     width: 820px; 
     height: 462px; 
     overflow: hidden;
-}
+} */
 
 #zoom-text {
     display: none;
@@ -46,14 +56,16 @@ body {
 @media(max-width: 939px) {
     #mobile-text {
         display: flex;
-        position: absolute;
-        top: 50%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
         color: white;
         text-align: center;
         font-size: 5vw;
         
     }    
-    #clock-embed {
+    #game-container {
         display: none;
     }
     #zoom-text {
@@ -63,9 +75,10 @@ body {
 
 @media(min-height: 1000px) {
     #zoom-text {
+        display: flex;
+        flex-direction: column;
         color: white;
+        text-align: center;
         font-size: 20vw;
-        position: absolute;
-        bottom: 10%
     }
 }

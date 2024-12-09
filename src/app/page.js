@@ -7,19 +7,28 @@ export default function Home() {
       {/* <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script> */}
     <div className="app-content">
       <div className="text-content">
-        <p className="title-text">nick cirillo&apos;s cool site (WIP)</p>
+        <p className="title-text">nick cirillo&apos;s cool site.</p>
         
         <p>if you&apos;re here for professional stuff, my <a href="https://linkedin.com/in/nicholas-cirillo-/" target="_blank" rel="noopener noreferrer">linkedin</a> and <a href="https://github.com/nick-cirillo" target="_blank" rel="noopener noreferrer">github</a></p>
 
-        <p>or, check out my <a href="./music-shelf">interactive album art collage,</a></p>
+        <p>my homepage and portfolio for Art of the Web are under construction</p>
 
-        <p>a collection of my <a href="./landscapes">landscape photography,</a></p>
+        <p>for now, you can find all that here:</p>
 
-        <p>a <a href="./clock">&apos;game&apos; about wasting time,</a></p>
+        <ul id="portfolio-list">
+          <li>an <a href="./music-shelf">interactive album art collage</a></li>
 
-        <p>or my team&apos;s rock-paper-scissors <a href="./tournament">tournament</a></p>
+          <li>a collection of my <a href="./landscapes">landscape photography,</a></li>
 
-        <p>or my team&apos;s mcdonald&apos;s + slack <a href="https://quinn2liu.github.io/section3assignment2/index.html" target="_blank" rel="noopener noreferrer">applet</a></p>
+          <li>a <a href="./clock">&apos;game&apos; about wasting time,</a></li>
+
+          <li>my team&apos;s rock-paper-scissors <a href="./tournament">tournament</a></li>
+
+          <li>my team&apos;s mcdonald&apos;s + slack <a href="https://quinn2liu.github.io/section3assignment2/index.html" target="_blank" rel="noopener noreferrer">applet</a></li>
+
+          <li>a <a href="./generative-art">generative art space</a> to jot down your thoughts</li>
+
+        </ul>
 
         {/* <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="nicholas-cirillo-" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/nicholas-cirillo-?trk=profile-badge"></a></div> */}
 
