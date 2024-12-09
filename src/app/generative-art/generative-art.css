@@ -14,3 +14,24 @@ body {
     font-family: "Old Standard TT", serif;
     font-weight: 700;
 }
+
+#mobile-text {
+    display: none;    
+}  
+
+@media(max-width: 768px) {
+    #mobile-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: white;
+        text-align: center;
+        font-size: 5vw;
+    }    
+
+    main {
+        display: none;
+    }
+}
