@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Old Standard TT:wght@400..800&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --background: #000000;
+    --foreground: #ffffff;
+}
+
+body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: "Old Standard TT", serif;
+    /* font-weight: bold; */
+}
+
+#back-button {
+    color: var(--foreground);
+    text-decoration: none;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 20px;
+}
+
+#ascii-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: clamp(20px, 1vw, 110px);
+}
+
+#album-cover-container {
+    margin-top: 40px;
+    font-family: monospace;
+    /* font-size: clamp(7px, 0.5vw, 900px);
+    line-height: clamp(8.575px, 0.6125vw, 920px); */
+    font-size: clamp(6px, 0.45vw, 750px); /* Reduced font size */
+    line-height: clamp(7.35px, 0.55125vw, 766.667px); /* Reduced line height */
+    background-color:black;
+}

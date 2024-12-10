@@ -47,7 +47,7 @@ export default function Home() {
       </div>
       <div id="mobile-text">try this one out on a computer!</div>
       <div id="game-container"></div>
-      <div id="zoom-text">zoom in!</div>
+      {/* <div id="zoom-text">zoom in!</div> */}
     </div>
   );
 }

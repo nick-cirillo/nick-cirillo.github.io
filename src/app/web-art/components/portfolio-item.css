@@ -1,0 +1,77 @@
+@import '../web-art-globals.css';
+
+.pf-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.pf-thumbnail {
+    width: 25vw;
+}
+
+.pf-thumbnail-border-s1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26vw;
+    height: 17.73vw;
+    border: 3px solid var(--oxford-blue);
+    transition: 0.2s;
+}
+
+.pf-item:hover .pf-thumbnail-border-s1 {
+    background: var(--lapis-lazuli);
+}
+
+.pf-thumbnail-border-s2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26vw;
+    height: 17.73vw;
+    border: 3px solid var(--oxford-blue);
+    transition: 0.2s;
+}
+
+.pf-item:hover .pf-thumbnail-border-s2 {
+    background: var(--atomic-tangerine);
+}
+
+.pf-thumbnail-border-s3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26vw;
+    height: 17.73vw;
+    border: 3px solid var(--oxford-blue);
+    transition: 0.2s;
+}
+
+.pf-item:hover .pf-thumbnail-border-s3 {
+    background: var(--school-bus-yellow);
+}
+
+.pf-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+}
+
+.pf-label-assignment {
+    color: #1C2237;
+    font-family: "Circular";
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.pf-label-title {
+    color: #1C2237;
+    font-family: "PP Migra";
+    font-size: 1.6vw;
+    font-style: normal;
+    font-weight: 800;
+}

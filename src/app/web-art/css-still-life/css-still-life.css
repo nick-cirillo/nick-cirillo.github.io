@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Old Standard TT:wght@400..800&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --background: #000000;
+    --foreground: #ffffff;
+}
+
+body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: "Old Standard TT", serif;
+}
+
+#back-button {
+    color: var(--foreground);
+    text-decoration: none;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 20px;
+    z-index: 1;
+}
+
+#mobile-text {
+    display: none;    
+}  
+
+#floor {
+    background-color: grey;
+    /* width: 1200px;
+    height: 900px; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 700px;
+    padding-left: 130px;
+  }
+  #items {
+    position: relative;
+    transform-style: preserve-3d;
+  }
+  #pork-roll {
+    position: absolute;
+    top: 150px; /* Adjust this value to move the pork roll up or down */
+    left: 420px; /* Adjust this value to move the pork roll left or right */
+    transform-style: preserve-3d;
+    transform: rotateX(50deg) rotateZ(5deg) translateZ(20px);
+    z-index: -998;
+  }
+  #pork-roll-top {
+    background-color: #d11c1f;
+    color: #e7e1db;
+    width: 150px;
+    height: 140px;
+  
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  #pork-roll-circle {
+    background-color: #e7e1db;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    left: 10px;
+    margin-left: 10px;
+  }
+  
+  #pork-roll-label {
+    position: absolute;
+    top: 25px;
+    left: 90px;
+    background-color: #e7e1db;
+    color: #d11c1f;
+    writing-mode: vertical-rl;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40px;
+    height: 80px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 20% 20% 0% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #taylor {
+    transform:scale(1.5,1);
+  }
+  
+  #pork-roll-side-bottom {
+    background-color: #7a0501;
+    height: 40px;
+    width: 140px;
+    bottom: -10px;
+    right: 0;
+    transform: rotateZ(90deg) rotateY(180deg) rotateX(90deg);
+    transform-origin: top left;
+  }
+  
+  #pork-roll-side-right {
+    background-color: #860e12;
+    height: 40px;
+    width: 150px;
+    transform-origin: top;
+    transform: rotateX(-90deg) translateZ(-40px);
+    display: flex; 
+    justify-content: end;
+  }
+  
+  #pork-roll-barcode-container {
+    background-color: #e7e1db;
+    height: 30px;
+    width: 60px;
+    margin-top: 5px;
+    margin-right: 7px;
+    display: flex;
+  }
+  
+  .pork-roll-barcode {
+    margin: 2px;
+    background-color: #36384e;
+    height: 26px;
+    width: 3px;
+  }
+  
+  #book {
+    transform: rotateX(50deg) rotateZ(115deg);
+    transform-style: preserve-3d;
+    z-index: -999;
+  
+  }
+  #book-top {
+    background-color: #d03612;
+    color: #f6efde;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 150px;
+  }
+  
+  #NEC {
+    margin-bottom: 50px;
+  }
+  
+  #book-side {
+    background-color: #cfc0af;
+    color: black;
+    height: 600px;
+    width: 50px;
+    transform-origin: center left;
+    transform: rotateY(90deg);
+    position: absolute;
+    left: 400px;
+    top: 0;
+  }
+  
+  #korg {
+    transform: rotateX(50deg) rotateZ(115deg) translateZ(95px) translateX(50px) translateY(-65px);
+    transform-style: preserve-3d;
+    position: absolute;
+    transform-origin: top left;
+    top: 450px; /* Adjust this value to move the korg up or down */
+    left: 30px; /* Adjust this value to move the korg left or right */
+  }
+  
+  #korg-top {
+    background-color: black;
+    color: #111111;
+    width: 150px;
+    height: 240px;
+    border-radius: 0% 0% 0% 5%;
+  
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
+    position: relative;
+  }
+  
+  #korg-oval-button-left {
+    background-color: #4f5050;
+    width: 10px;
+    height: 40px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border-radius: 25%;
+  }
+  
+  #korg-screen {
+    background-color: #435236;
+    width: 40px;
+    height: 130px;
+    margin: 20px;
+    border-radius: 3%;
+  }
+  
+  #korg-screen:hover {
+    background-color: #648a43;
+    width: 40px;
+    height: 130px;
+    margin: 20px;
+    border-radius: 3%;
+  }
+  
+  #korg-oval-button-right {
+    background-color: #4f5050;
+    width: 10px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 25%;
+  }
+  
+  #korg-circle-button {
+    background-color: #80898b;
+    height: 22px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 65px;
+    bottom: 195px;
+  }
+  
+  #korg-text {
+    color: #6b6966;
+    writing-mode: vertical-lr;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: scale(-1,-0.8);
+    position: absolute;
+    left: 85px;
+    bottom: 10px;
+  }
+  
+  #tm50-span {
+    font-size: 10px;
+  }
+  
+  #korg-side-bottom {
+    background-color: #222220;
+    height: 240px;
+    width: 30px;
+    bottom: 0px;
+    right: 0;
+    transform: rotateY(90deg) translateY(-240px) translateZ(150px);
+    transform-origin: top left;
+  }
+  
+  #korg-side-right {
+    background-color: #1a1a1a;
+    color: black;
+    height: 30px;
+    width: 150px;
+    transform-origin: top left;
+    transform: rotateX(-90deg);
+    position: absolute;
+    border-radius: 0% 0% 0% 20%;
+    left: 0px;
+    top: 0px;
+  }
+  
+  #cd {
+    transform: rotateX(50deg) rotateZ(135deg) translateZ(150px) translateX(-160px) translateY(-350px);
+    transform-style: preserve-3d;
+    position: absolute;
+    transform-origin: top left;
+    top: 450px; /* Adjust this value to move the cd up or down */
+    left: 30px; /* Adjust this value to move the cd left or right */
+  }
+  
+  #cd-top {
+    background-color: #52514d;
+    color: #111111;
+    width: 175px;
+    height: 175px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    border-bottom: 20px solid #292824;
+  }
+  
+  #cd-disk {
+    background: linear-gradient(#0629a1, 50%, #87acc9);
+    opacity: 1;
+    height: 160px;
+    width: 160px;
+    
+    border-radius: 50%; 
+    border: 5px solid #4a3a1e;
+  }
+  
+  #cd-disk:hover {
+    background: conic-gradient(blue, orange, yellow, green, blue);
+    
+    height: 160px;
+    width: 160px;
+    
+    border-radius: 50%; 
+    border: 5px solid #4a3a1e;
+  }
+  
+  #cd-disk-center {
+    position: absolute;
+    background-color: #37322b;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+  #cd-disk-dot {
+    position: absolute;
+    background-color: #ece7dc;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+  }
+  
+  #cd-side-bottom {
+    background-color: #918d89;
+    height: 175.4px;
+    width: 20px;
+    bottom: 0px;
+    right: 0;
+    transform: rotateY(90deg) translateY(-175.4px) translateZ(175px);
+    transform-origin: top left;
+  }
+  
+  #cd-side-right {
+    background-color: #666160;
+    color: black;
+    height: 20px;
+    width: 175px;
+    transform-origin: top left;
+    transform: rotateX(-90deg);
+    position: absolute;
+    border-radius: 0% 0% 0% 20%;
+    left: 0px;
+    top: 0px;
+  }
+
+@media(max-width: 900px) {
+    #mobile-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: white;
+        text-align: center;
+        font-size: 5vw;
+    }    
+
+    #still-life-container {
+        display: none;
+    }
+}
+
+@media(max-height: 550px) {
+    #mobile-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: white;
+        text-align: center;
+        font-size: 5vw;
+    }    
+
+    #still-life-container {
+        display: none;
+    }
+}
