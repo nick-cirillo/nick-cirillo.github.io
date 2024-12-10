@@ -19,6 +19,27 @@ function setup() {
   textAlign(LEFT, TOP);
 }
 
+function createCircle() {
+  // Manually create and position a circle in the DOM
+  const circle = document.createElement('div'); // Create a div element
+  circle.classList.add('back-circle'); // Add the 'childCircle' class for styling
+  circle.style.width = '30px'; // Set the width of the circle
+  circle.style.height = '30px'; // Set the height of the circle
+  circle.style.backgroundColor = 'black'; // Set the circle color
+  circle.style.borderRadius = '50%'; // Make it round
+  circle.style.position = 'absolute';
+  circle.style.left = '15px'; // Horizontal position on screen
+  circle.style.top = '10px'; // Vertical position on screen
+  circle.style.zIndex = '1';
+  circle.style.borderColor = 'white';
+  circle.style.borderWidth = '2px';
+  
+  const container = document.querySelector('.back-button-container');
+
+  // Append the circle to the DOM (to the body or a specific container)
+  container.appendChild(circle);
+}
+
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
@@ -31,7 +52,7 @@ function draw() {
     fill('white');
     textSize(48);
     textAlign(CENTER, TOP);
-    text("This is an empty space for your thoughts.", windowWidth / 2, 30);
+    text("This is an empty space for your thoughts.", windowWidth / 2, 40);
   } else {
     textAlign(LEFT, TOP);
   }
@@ -56,10 +77,10 @@ function draw() {
 
   // Display all lines of text
   textFont(transportM);
-  let yPos = 30;
+  let yPos = 40;
   for (let line of lines) {
     // Check the brightness of the background behind each character
-    let xPos = 30; // Starting position for each line
+    let xPos = 40; // Starting position for each line
     for (let i = 0; i < line.length; i++) {
       // Calculate the width and height of the character
       // let charWidth = textWidth(line.charAt(i));
@@ -93,13 +114,16 @@ function draw() {
 }
 
 function keyTyped() {
-  isTyping = true;
+  if (!isTyping) {
+    createCircle();
+    isTyping = true;
+  }
   // Add the new character to the current line
   let currentLine = lines.length > 0 ? lines[lines.length - 1] : '';
   currentLine += key;
 
   // Check if the line width exceeds the window width
-  if (textWidth(currentLine) > windowWidth - 60) {
+  if (textWidth(currentLine) > windowWidth - 80) {
     // If it does, split the line and push the new character to a new line
     lines[lines.length - 1] = currentLine.slice(0, -1); // Save the part that fits
     lines.push(key); // Start a new line with the current character
