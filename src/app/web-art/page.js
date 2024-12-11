@@ -8,63 +8,33 @@ export default function Home() {
   return (
     <div id="page-container">
         <div id="pf-large-header">
-          <a id="pf-large-header-name" href="/">Nicholas Cirillo</a>
+          <div id="pf-header-banner">
+            <a id="pf-readings-button" href="./web-art/readings">
+              <img 
+                id="pf-readings-icon"
+                src="/icons/open-book.webp" 
+                alt="Readings"
+              ></img>
+            </a>
+            <a id="pf-large-header-name" href="/">Nicholas Cirillo</a>
+            <a id="pf-course-button" href="https://www.design.upenn.edu/courses/dsgn-1020" target="_blank" rel="noopener noreferrer">
+              <img 
+                id="pf-course-icon"
+                src="/icons/penn-shield.webp" 
+                alt="Readings"
+              ></img>
+            </a>
+          </div>
           <p id="pf-large-header-title">ART of the WEB</p>
         </div>
-        <a id="pf-readings-button" href="./web-art/readings">
-          <img 
-            id="pf-readings-icon"
-            src="https://images.vexels.com/content/140908/preview/open-book-icon-7991a2.png" 
-            alt="Readings"
-          ></img>
-        </a>
+        
         <div id="pf-grid">
           <div className="pf-grid-row">
             <PortfolioItem 
-              filename="generative-art"
-              assignment="SECTION 3 - FINAL PROJECT" 
-              section="3" 
-              title="Generative Journal"
-            />
-            <PortfolioItem 
-              filename="mcdonalds-slack-applet"
-              assignment="SECTION 3 - ASSIGNMENT 2" 
-              section="3" 
-              title="McDonald's / Slack IFTTT Applet"
-            />
-            <PortfolioItem 
-              filename="tournament"
-              assignment="SECTION 3 - ASSIGNMENT 1" 
-              section="3" 
-              title="Rock-Paper-Scissors Tournament"
-            />
-          </div>
-          <div className="pf-grid-row">
-            <PortfolioItem 
-              filename="clock"
-              assignment="SECTION 2 - FINAL PROJECT" 
-              section="2" 
-              title="Clock Pong"
-            />
-            <PortfolioItem 
-              filename="landscapes"
-              assignment="SECTION 2 - ASSIGNMENT 2" 
-              section="2" 
-              title="Landscape Photography"
-            />
-            <PortfolioItem 
-              filename="web-ring"
-              assignment="SECTION 2 - ASSIGNMENT 1" 
-              section="2" 
-              title="Web Ring"
-            />
-          </div>
-          <div className="pf-grid-row">
-            <PortfolioItem 
-              filename="music-shelf"
-              assignment="SECTION 1 - FINAL PROJECT"
+              filename="ascii-album-art"
+              assignment="SECTION 1 - ASSIGNMENT 1" 
               section="1" 
-              title="Album Art Collage"
+              title="ASCII Album Art"
             />
             <PortfolioItem 
               filename="css-still-life"
@@ -73,10 +43,50 @@ export default function Home() {
               title="CSS Still Life"
             />
             <PortfolioItem 
-              filename="ascii-album-art"
-              assignment="SECTION 1 - ASSIGNMENT 1" 
+              filename="album-art-collage"
+              assignment="SECTION 1 - FINAL PROJECT"
               section="1" 
-              title="ASCII Album Art"
+              title="Album Art Collage"
+            />
+          </div>
+          <div className="pf-grid-row">
+            <PortfolioItem 
+              filename="web-ring"
+              assignment="SECTION 2 - ASSIGNMENT 1" 
+              section="2" 
+              title="Web Ring"
+            />
+            <PortfolioItem 
+              filename="landscapes"
+              assignment="SECTION 2 - ASSIGNMENT 2" 
+              section="2" 
+              title="Landscape Photography"
+            />
+            <PortfolioItem 
+              filename="clock"
+              assignment="SECTION 2 - FINAL PROJECT" 
+              section="2" 
+              title="Pong Clock"
+            />
+          </div>
+          <div className="pf-grid-row">
+            <PortfolioItem 
+              filename="tournament"
+              assignment="SECTION 3 - ASSIGNMENT 1" 
+              section="3" 
+              title="Rock-Paper-Scissors Tournament"
+            />
+            <PortfolioItem 
+              filename="ifttt-applet"
+              assignment="SECTION 3 - ASSIGNMENT 2" 
+              section="3" 
+              title="IFTTT Applet"
+            />
+            <PortfolioItem 
+              filename="generative-art"
+              assignment="SECTION 3 - FINAL PROJECT" 
+              section="3" 
+              title="Generative Journal"
             />
           </div>
         </div>
@@ -85,13 +95,13 @@ export default function Home() {
 }
 
 {/* <PortfolioItem 
-              filename="music-shelf"
+              filename="album-art-collage"
               assignment="SECTION 1 - FINAL PROJECT" 
               title="Album Art Collage"
             /> */}
 
 {/* <ul id="portfolio-list">
-          <li>an <a href="./web-art/music-shelf">interactive album art collage</a></li>
+          <li>an <a href="./web-art/album-art-collage">interactive album art collage</a></li>
           <li>a collection of my <a href="./web-art/landscapes">landscape photography,</a></li>
           <li>a <a href="./web-art/clock">&apos;game&apos; about wasting time,</a></li>
           <li>my team&apos;s rock-paper-scissors <a href="./web-art/tournament">tournament</a></li>

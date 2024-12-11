@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
     <div className="back-button-container">
-        <a id="back-button" href="./" className="back-button">&#x2190;</a>
+        <a id="back-button" href="./about/landscapes" className="back-button">&#x2190;</a>
     </div>
     <div className="landscape-grid">
         <div className="landscape-row">

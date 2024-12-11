@@ -22,7 +22,7 @@
 }
 
 .pf-item:hover .pf-thumbnail-border-s1 {
-    background: var(--lapis-lazuli);
+    background: var(--school-bus-yellow);
 }
 
 .pf-thumbnail-border-s2 {
@@ -50,7 +50,7 @@
 }
 
 .pf-item:hover .pf-thumbnail-border-s3 {
-    background: var(--school-bus-yellow);
+    background: var(--lapis-lazuli);
 }
 
 .pf-label {
@@ -60,12 +60,40 @@
     gap: 0;
 }
 
-.pf-label-assignment {
+.pf-label-assignment-s1 {
     color: #1C2237;
     font-family: "Circular";
     font-size: 1vw;
     font-style: normal;
     font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: var(--school-bus-yellow);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+}
+
+.pf-label-assignment-s2 {
+    color: #1C2237;
+    font-family: "Circular";
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: var(--atomic-tangerine);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+}
+
+.pf-label-assignment-s3 {
+    color: #1C2237;
+    font-family: "Circular";
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: var(--lapis-lazuli);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
 }
 
 .pf-label-title {

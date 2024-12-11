@@ -39,7 +39,6 @@ body {
 }
 
 #pf-large-header-title {
-    /* font-size: 170px; */
     font-size: 11.5vw;
     font-weight: 800;
 }
@@ -63,24 +62,58 @@ body {
     gap: 30px;
 }
 
+#pf-header-banner {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 9vw;
+}
+
 #pf-readings-button {
     background-color: var(--baby-powder);
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    position: absolute;
-    margin: 10px 10px;
-    top: 0;
-    left: 9vw;
-
     display: flex;
     justify-content: center;
     align-items: center;
+
+    transition: 0.2s;
+}
+
+#pf-readings-button:hover {
+    background-color: var(--flax);
 }
 
 #pf-readings-icon {
     width: 30px;
     height: 30px;
+}
+
+
+#pf-course-button {
+    background-color: var(--baby-powder);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.2s;
+}
+
+#pf-course-button:hover {
+    background-color: var(--glaucous);
+}
+
+#pf-course-icon {
+    position: relative;
+    top: 1px;
+    width: 24px;
+    height: 24px;
 }
 
 @media (max-width: 1000px) {

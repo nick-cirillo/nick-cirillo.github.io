@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div id="page-container">
         <div className="back-button-container">
-            <a id="back-button" href="./" className="back-button">&#x2190;</a>
+            <a id="back-button" href="./about/tournament" className="back-button">&#x2190;</a>
         </div>
         <div className="content-container">
             <p className="title-text"><span id="rock-text">rock,</span> <span id="paper-text">paper,</span> <span id="scissors-text">scissors...</span><br></br><span id="shoot-text">shoot!</span></p>
