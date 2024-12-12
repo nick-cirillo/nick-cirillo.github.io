@@ -88,7 +88,7 @@ export default function Home() {
             <p className="section-label">P5.JS PROGRAM</p>
             <p className="section-title">Generative Keypresses</p>
             <div className="section-body">
-              To begin, the page suggests that it is an empty space for one's thoughts. No indication of interactivity is given, so the 
+              To begin, the page suggests that it is an empty space for one&apos;s thoughts. No indication of interactivity is given, so the 
               piece is unveiled only to the curious visitor who tries to start typing. Typing a consonant will create red, green, or blue circles; 
               typing a vowel will create cyan, magenta, or yellow circles; typing anything else creates a black or white rectangle or triangle.
               <div className="section-body-break"></div>
