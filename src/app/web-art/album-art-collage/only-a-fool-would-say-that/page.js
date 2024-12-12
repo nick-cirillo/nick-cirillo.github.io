@@ -55,7 +55,7 @@ const Page = () => {
   return (
 	<div>
 	<div className="back-button-container">
-		<a id="back-button" href="/album-art-collage" className="back-button">&#x2190;</a>
+		<a id="back-button" href="/web-art/album-art-collage" className="back-button">&#x2190;</a>
 	</div>
     <div className="container-spacer">
       <div className="album-cover-container">

@@ -3,8 +3,28 @@
 import "./web-art.css";
 import "./web-art-globals.css"
 import PortfolioItem from "./components/portfolio-item";
+import { useState } from 'react';
+
 
 export default function Home() {
+  const [section1Reverse, setSection1Reverse] = useState(true);
+  const [section2Reverse, setSection2Reverse] = useState(true);
+  const [section3Reverse, setSection3Reverse] = useState(true);
+
+  const toggleSection = (section) => {
+    switch(section) {
+      case 1:
+        setSection1Reverse(!section1Reverse);
+        break;
+      case 2:
+        setSection2Reverse(!section2Reverse);
+        break;
+      case 3:
+        setSection3Reverse(!section3Reverse);
+        break;
+    }
+  };
+
   return (
     <div id="page-container">
         <div id="pf-large-header">
@@ -29,71 +49,96 @@ export default function Home() {
         </div>
         
         <div id="pf-grid">
-          <div className="pf-grid-col">
-            <PortfolioItem 
-              filename="ascii-album-art"
-              assignment="SECTION 1 - ASSIGNMENT 1" 
-              section="1" 
-              title="ASCII Album Art"
-            />
-            <PortfolioItem 
-              filename="css-still-life"
-              assignment="SECTION 1 - ASSIGNMENT 2" 
-              section="1" 
-              title="CSS Still Life"
-            />
-            <PortfolioItem 
-              filename="album-art-collage"
-              assignment="SECTION 1 - FINAL PROJECT"
-              section="1" 
-              title="Album Art Collage"
-              autoplay="true"
-            />
-            <div className="pf-section-label-s1"><p>SECTION 1</p>&nbsp;↑</div>
+          <div className="pf-section-col">
+          <div 
+            className="pf-section-label-s1" 
+            onClick={() => toggleSection(1)}
+            style={{ cursor: 'pointer' }}
+          >
+            <p>SECTION 1</p>&nbsp;{section1Reverse ? '↑' : '↓'}
+            
           </div>
-          <div className="pf-grid-col">
-            <PortfolioItem 
-              filename="web-ring"
-              assignment="SECTION 2 - ASSIGNMENT 1" 
-              section="2" 
-              title="Web Ring"
-            />
-            <PortfolioItem 
-              filename="landscapes"
-              assignment="SECTION 2 - ASSIGNMENT 2" 
-              section="2" 
-              title="Landscape Photography"
-            />
-            <PortfolioItem 
-              filename="clock"
-              assignment="SECTION 2 - FINAL PROJECT" 
-              section="2" 
-              title="Pong Clock"
-              autoplay="true"
-            />
-            <div className="pf-section-label-s2"><p>SECTION 2</p>&nbsp;↑</div>
+            <div className={`pf-grid-col ${section1Reverse ? 'reverse' : ''}`}>
+              <PortfolioItem 
+                filename="ascii-album-art"
+                assignment="SECTION 1 - ASSIGNMENT 1" 
+                section="1" 
+                title="ASCII Album Art"
+              />
+              <PortfolioItem 
+                filename="css-still-life"
+                assignment="SECTION 1 - ASSIGNMENT 2" 
+                section="1" 
+                title="CSS Still Life"
+              />
+              <PortfolioItem 
+                filename="album-art-collage"
+                assignment="SECTION 1 - FINAL PROJECT"
+                section="1" 
+                title="Album Art Collage"
+                autoplay="true"
+              />
+            </div>
           </div>
-          <div className="pf-grid-col">
-            <PortfolioItem 
-              filename="tournament"
-              assignment="SECTION 3 - ASSIGNMENT 1" 
-              section="3" 
-              title="Rock-Paper-Scissors Tournament"
-            />  
-            <PortfolioItem 
-              filename="ifttt-applet"
-              assignment="SECTION 3 - ASSIGNMENT 2" 
-              section="3" 
-              title="IFTTT Applet"
-            />
-            <PortfolioItem 
-              filename="generative-art"
-              assignment="SECTION 3 - FINAL PROJECT" 
-              section="3" 
-              title="Generative Journal"
-              autoplay="true"
-            />
-            <div className="pf-section-label-s3"><p>SECTION 3 </p>&nbsp;↑</div>
+          <div className="pf-section-col">
+          <div 
+            className="pf-section-label-s2"
+            onClick={() => toggleSection(2)}
+            style={{ cursor: 'pointer' }}
+          >
+            <p>SECTION 2</p>&nbsp;{section2Reverse ? '↑' : '↓'}
+          </div>
+            <div className={`pf-grid-col ${section2Reverse ? 'reverse' : ''}`}>
+              <PortfolioItem 
+                filename="web-ring"
+                assignment="SECTION 2 - ASSIGNMENT 1" 
+                section="2" 
+                title="Web Ring"
+              />
+              <PortfolioItem 
+                filename="landscapes"
+                assignment="SECTION 2 - ASSIGNMENT 2" 
+                section="2" 
+                title="Landscape Photography"
+              />
+              <PortfolioItem 
+                filename="clock"
+                assignment="SECTION 2 - FINAL PROJECT" 
+                section="2" 
+                title="Pong Clock"
+                autoplay="true"
+              />
+            </div>
+          </div>
+          <div className="pf-section-col">
+          <div 
+            className="pf-section-label-s3"
+            onClick={() => toggleSection(3)}
+            style={{ cursor: 'pointer' }}
+          >
+            <p>SECTION 3 </p>&nbsp;{section3Reverse ? '↑' : '↓'}
+          </div>
+            <div className={`pf-grid-col ${section3Reverse ? 'reverse' : ''}`}>
+              <PortfolioItem 
+                filename="tournament"
+                assignment="SECTION 3 - ASSIGNMENT 1" 
+                section="3" 
+                title="Rock-Paper-Scissors Tournament"
+              />  
+              <PortfolioItem 
+                filename="ifttt-applet"
+                assignment="SECTION 3 - ASSIGNMENT 2" 
+                section="3" 
+                title="IFTTT Applet"
+              />
+              <PortfolioItem 
+                filename="generative-art"
+                assignment="SECTION 3 - FINAL PROJECT" 
+                section="3" 
+                title="Generative Journal"
+                autoplay="true"
+              />
+            </div>
           </div>
         </div>
     </div>

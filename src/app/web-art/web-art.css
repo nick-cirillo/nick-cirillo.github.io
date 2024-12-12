@@ -52,6 +52,14 @@ body {
     padding-bottom: 100px;
 }
 
+.pf-section-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
 .pf-section-label-s1 {
     width: 100%;
     display: flex;
@@ -114,11 +122,15 @@ body {
 
 .pf-grid-col {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
     gap: 20px;
+}
+
+.reverse {
+    flex-direction: column-reverse;
 }
 
 #pf-header-banner {
