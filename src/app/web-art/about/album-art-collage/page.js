@@ -89,7 +89,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="content-section">
+        <div className="content-section rev">
           <div className="text-container">
             <p className="section-label">GRID LAYOUT</p>
             <p className="section-title">Song Pages</p>

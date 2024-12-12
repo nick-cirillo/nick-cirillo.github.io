@@ -62,6 +62,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 120.625%; /* 24.125px */
+    margin-bottom: 10px;
 }
 
 .pf-section-label-s1 p {
@@ -81,6 +82,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 120.625%; /* 24.125px */
+    margin-bottom: 10px;
 }
 
 .pf-section-label-s2 p {
@@ -100,6 +102,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 120.625%; /* 24.125px */
+    margin-bottom: 10px;
 }
 
 .pf-section-label-s3 p {
@@ -181,9 +184,33 @@ body {
 }
 
 @media (max-width: 768px) {
-    .pf-grid-row {
+    #pf-large-header-name {
+        font-size: 30px;
+    }
+
+    #pf-readings-button {
+        width: 30px;
+        height: 30px;
+    }
+
+    #pf-readings-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    #pf-course-button {
+        width: 30px;
+        height: 30px;
+    }
+
+    #pf-course-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    #pf-grid {
         flex-direction: column;
         gap: 20px;
+        width: 80%;
     }
 }
-

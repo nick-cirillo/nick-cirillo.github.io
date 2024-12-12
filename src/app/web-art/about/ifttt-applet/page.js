@@ -84,7 +84,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="content-section">
+        <div className="content-section rev">
           <div className="text-container">
             <p className="section-label">PROMOTION</p>
             <p className="section-title">Webpage</p>

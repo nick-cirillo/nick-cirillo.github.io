@@ -89,7 +89,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="content-section">
+        <div className="content-section rev">
           <div className="text-container">
             <p className="section-label">LEFT LINK</p>
             <p className="section-title">Kenzie&apos;s Style</p>

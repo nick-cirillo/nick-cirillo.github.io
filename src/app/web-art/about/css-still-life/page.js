@@ -80,7 +80,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="content-section">
+        <div className="content-section rev">
           <div className="text-container">
             <p className="section-label">LAYOUT, STYLING, ANIMATIONS</p>
             <p className="section-title">CSS Still Life</p>
