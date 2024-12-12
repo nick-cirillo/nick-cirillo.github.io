@@ -80,10 +80,10 @@ export default function Home() {
             <p className="section-label">DESIGN SYSTEM</p>
             <p className="section-title">ASCII Sade</p>
             <div className="section-body">
-              Serendipitiously, one of my teammates for this project walked into class wearing a Sade shirt. 
-              Prompted by his shirt, I suggested we recreate Sade's album covers in ASCII.
+              Serendipitiously, one of my teammates, Quinn, walked into class wearing a Sade shirt. 
+              Prompted by his shirt, I suggested we recreate Sade&apos;s album covers in ASCII.
               <div className="section-body-break"/>
-              I recreated the cover to Sade's 1984 single &ldquo;Hang on to Your Love,&rdquo; and opted for a full-color,
+              I recreated the cover to Sade&apos;s 1984 single &ldquo;Hang on to Your Love,&rdquo; and opted for a full-color,
               light-on-dark ASCII style, which made the bright colors pop.
             </div>
           </div>

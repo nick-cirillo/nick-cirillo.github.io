@@ -20,7 +20,7 @@ export default function Home() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
-  
+
   return (
     <div className="s1">
       <div className={`pf-top-button ${showButton ? 'show' : ''}`} onClick={scrollToTop}>
@@ -100,20 +100,20 @@ export default function Home() {
             <p className="section-label">WEEK 3</p>
             <p className="section-title">Laurel Schwulst & Édouard U.: Selections from &ldquo;How Do You Use the Internet Mindfully?&rdquo;</p>
             <div className="section-body">
-            Laurel Schwulst's excerpt ties directly into why I've been putting off making a personal website for so long. It seems strange - 
-            I'm co-leading one of Penn's most prominent web development organizations, and I don't even have my own website? In fact, I've 
+            Laurel Schwulst&apos;s excerpt ties directly into why I&apos;ve been putting off making a personal website for so long. It seems strange - 
+            I&apos;m co-leading one of Penn&apos;s most prominent web development organizations, and I don&apos;t even have my own website? In fact, I&apos;ve 
             barely even tried.
             <div className="section-body-break"/>
-            I know why, now. It's a lack of purpose for the thing. I don't need nicholascirillo.com to be a second resume - a collection of 
-            completed works, to paraphrase Schwulst. It's too corporate. I already have a second resume and it is called linkedin dot com 
+            I know why, now. It&apos;s a lack of purpose for the thing. I don't need nicholascirillo.com to be a second resume - a collection of 
+            completed works, to paraphrase Schwulst. It&apos;s too corporate. I already have a second resume and it is called linkedin dot com 
             slash nicholas dash cirillo dash slash. And that is far and beyond corporate enough for me.
             <div className="section-body-break"/>
-            What to make it, then? I don't know, but I'm sure I will spend some time chewing on those metaphors - house, bookshelf, plant, garden, puddle 
+            What to make it, then? I don't know, but I&apos;m sure I will spend some time chewing on those metaphors - house, bookshelf, plant, garden, puddle 
             - and slowly drip drop some ideas into a cool little website. 
             <div className="section-body-break"/>
-            Édouard's reading did not click with me as much. I love the feeling of being absorbed into a linear narrative, and I don't know if I can give 
-            that up. His method - so many books open, Wikipedia accompanying a new film - reeks of internet chaos to me, and I'm trying to escape that, 
-            not embody it. It does sound like he would be a big fan of Obsidian, though. For those of you who don't know, it's a software that lets you 
+            Édouard&apos;s reading did not click with me as much. I love the feeling of being absorbed into a linear narrative, and I don&apos;t know if I can give 
+            that up. His method - so many books open, Wikipedia accompanying a new film - reeks of internet chaos to me, and I&apos;m trying to escape that, 
+            not embody it. It does sound like he would be a big fan of Obsidian, though. For those of you who don&apos;t know, it&apos;s a software that lets you 
             create a personal Wikipedia - and would let this author connect all his personal artifacts together.
             <div className="section-body-break"/>
             Questions:
@@ -121,9 +121,9 @@ export default function Home() {
 
 
             1. Do you prefer a personal website to have a specific form factor - house, shelf, plant, garden, etc? And what makes the website a
-             'personal' website versus a project?
+             &lsquo;personal&rsquo; website versus a project?
             <div className="section-body-break"/>
-            2. How have seemingly siloed 'artifacts' created novel results, either for you or someone else?
+            2. How have seemingly siloed &lsquo;artifacts&rsquo; created novel results, either for you or someone else?
             </div>
         
           </div>
@@ -154,10 +154,10 @@ export default function Home() {
             <p className="section-label">WEEK 5</p>
             <p className="section-title">David Reinfurt: Selections from A *New* Program for Graphic Design</p>
             <div className="section-body">
-            I found the introduction to Gestalt theory and its history quite compelling. I'd always heard of &lsquo;gestalt&rsquo; as pattern 
-            composition, the sum of the parts, etcetera - but I hadn't actually heard the perspective that gestalt is something 
+            I found the introduction to Gestalt theory and its history quite compelling. I&apos;d always heard of &lsquo;gestalt&rsquo; as pattern 
+            composition, the sum of the parts, etcetera - but I hadn&apos;t actually heard the perspective that gestalt is something 
             <span style={{fontStyle: "italic"}}> separate </span> 
-            from the sum of the parts. I don't really agree with that assessment, as obviously changing any one part of the sum changes 
+            from the sum of the parts. I don&apos;t really agree with that assessment, as obviously changing any one part of the sum changes 
             the whole. I do, however, see where the author is coming from - our perception adds an unquantifiable ingredient to the mix 
             that fundamentally shapes the whole and creates something new from it. 
             <div className="section-body-break"/>
@@ -168,7 +168,7 @@ export default function Home() {
             1. What are some cool unconventional examples of gestalt theory in everyday life?
             <div className="section-body-break"/>
 
-            2. Is the web itself a gestalt? Do all the discrete locations across the web seem to meld together into some greater whole? I feel as such, but I'd love to hear what others think.
+            2. Is the web itself a gestalt? Do all the discrete locations across the web seem to meld together into some greater whole? I feel as such, but I&apos;d love to hear what others think.
             </div>
         
           </div>
@@ -180,7 +180,7 @@ export default function Home() {
             <p className="section-title">Alessandro Ludovico & Florian Cramer: Selections from Post-Digital Print</p>
             <div className="section-body">
             This week&apos;s reading predicts that as digital media becomes more prominent, printed works will shift emphasis towards 
-            being collector&apos;s items. However, in my observation, this hasn't happened for printed works yet - most people I know 
+            being collector&apos;s items. However, in my observation, this hasn&apos;t happened for printed works yet - most people I know 
             still read physical books, and prefer physical books, rather than owning a Kindle or reading books on a laptop or phone. 
             For many, the tactility is extremely important - there is a physical indicator of progress across time, the experience 
             is embodied, and the text is readable without blue light, not to mention the psychological benefits. I have, however, 
@@ -220,19 +220,19 @@ export default function Home() {
              I&apos;m generally curious - have programmers in other countries created libraries or projects in which variable names, 
              functions, etc. are written in their home languages, or some hybrid of English and another language? I would imagine 
              the pressure to remain with the English standard would be great, but considering the technological boom happening around
-              the globe, it wouldn't surprise me.
+              the globe, it wouldn&apos;t surprise me.
               <div className="section-body-break"/>
 
             In my thinking about this article, there is also a tension between universalist and nationalist perspectives. My initial 
             gut reaction to this article was a twinge of sympathy followed by a &lsquo;so what?&rsquo; But this is undeniably influenced by my 
             background as an American - a white American who speaks only English, and thus has a strong connection only to my American
              culture, with shades of Italian-American tradition. With the tumult of geopolitics between the US and China, Russia, and
-              various nations in the Arab world, it's easy to say, &ldquo;no, let's keep things Anglocentric, just the way they are.&rdquo;
+              various nations in the Arab world, it&apos;s easy to say, &ldquo;no, let&apos;s keep things Anglocentric, just the way they are.&rdquo;
               <div className="section-body-break"/>
 
             Whenever I detect this mindset, I think of Albert Einstein, who called nationalism &ldquo;an infantile disease ... the measles
              of mankind,&rdquo; for so many reasons, of which we see ominous parallels in American politics frequently. Dialogue and 
-             understanding between cultures is crucial, and that's why I found this article so valuable - it opened my mind and 
+             understanding between cultures is crucial, and that&apos;s why I found this article so valuable - it opened my mind and 
              illuminated a new perspective.
              <div className="section-body-break"/>
 
