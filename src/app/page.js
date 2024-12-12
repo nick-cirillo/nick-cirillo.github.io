@@ -11,24 +11,9 @@ export default function Home() {
         
         <p>if you&apos;re here for professional stuff, my <a href="https://linkedin.com/in/nicholas-cirillo-/" target="_blank" rel="noopener noreferrer">linkedin</a> and <a href="https://github.com/nick-cirillo" target="_blank" rel="noopener noreferrer">github</a></p>
 
-        <p>my homepage and portfolio for Art of the Web are under construction</p>
+        <p>my homepage is under construction! for now, here is a picture of Timber</p>
 
-        <p>for now, you can find all that here:</p>
-
-        <ul id="portfolio-list">
-          <li>an <a href="./music-shelf">interactive album art collage</a></li>
-
-          <li>a collection of my <a href="./landscapes">landscape photography,</a></li>
-
-          <li>a <a href="./clock">&apos;game&apos; about wasting time,</a></li>
-
-          <li>my team&apos;s rock-paper-scissors <a href="./tournament">tournament</a></li>
-
-          <li>my team&apos;s mcdonald&apos;s + slack <a href="https://quinn2liu.github.io/section3assignment2/index.html" target="_blank" rel="noopener noreferrer">IFTTT applet</a></li>
-
-          <li>a <a href="./generative-art">generative art space</a> to jot down your thoughts</li>
-
-        </ul>
+        <p>you can find my web art portfolio <a href="./web-art">here</a></p>
 
         {/* <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="nicholas-cirillo-" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/nicholas-cirillo-?trk=profile-badge"></a></div> */}
 

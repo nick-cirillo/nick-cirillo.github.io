@@ -1,0 +1,127 @@
+@keyframes color {
+    0%   { background: #F5CE2F; }
+    20%  { background: #e9aa4d; }
+    40%  { background: #e04244; }
+    60%  { background: #FAD127; }
+    80%  { background: #F8B959; }
+    100% { background: #F5CE2F; }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Old Standard TT:wght@400..800&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+#back-button {
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    left: 20px;
+    top: 10px;  
+    font-size: 20px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    z-index: 2;
+}
+
+.body {
+    background: #F5CE2F; 
+    animation: color 9s infinite linear;
+    font-family: 'Impact', fantasy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.problem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+}
+
+.mcds-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;   
+}
+
+.mcd {
+    position: relative;
+    width: 30%;
+    border-radius: 5px;
+    /* border: 15px solid rgb(0, 0, 0);
+    border-radius: 10px; */
+    box-shadow: 10px 10px 5px black;
+}
+
+.you {
+    font-size: 4vw;
+}
+
+.applet-text {
+    margin: 20%;
+    margin-top: 0;
+}
+
+.applet {
+    font-size: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.connect-images {
+    margin-top: 10%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.applet-images {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.applet-image {
+    max-width: 40%;   /* Ensures images don't exceed the container's width */
+    height: auto;      /* Maintains aspect ratio */
+    /* border: 10px solid #000;  /* Adds a border around the images */
+    /* border-radius: 20px;  */
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.applet-image img {
+    border-radius: 5px;
+}
+
+.applet-description {
+    font-size: 2vw;
+    font-family:'Arial', sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+.connect-text {
+    margin-bottom: 40px;
+}
+
+.connect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    font-size: 4vw;
+}

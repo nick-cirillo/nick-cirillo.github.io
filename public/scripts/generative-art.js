@@ -10,7 +10,7 @@ let isTyping = false;
 let shapes = [];
 
 function preload() {
-  transportM = loadFont('./fonts/transportm.ttf');
+  transportM = loadFont('/fonts/transportm.woff');
 }
 
 function setup() {
@@ -83,25 +83,27 @@ function draw() {
     let xPos = 40; // Starting position for each line
     for (let i = 0; i < line.length; i++) {
       // Calculate the width and height of the character
-      let charWidth = textWidth(line.charAt(i));
-      let charHeight = textAscent() + textDescent(); // Total height of the character
+      // let charWidth = textWidth(line.charAt(i));
+      // let charHeight = textAscent() + textDescent(); // Total height of the character
 
-      // Calculate the center of the character
-      let charCenterX = xPos + charWidth / 2;
-      let charCenterY = yPos + charHeight / 2;
+      // // Calculate the center of the character
+      // let charCenterX = xPos + charWidth / 2;
+      // let charCenterY = yPos + charHeight / 2;
 
-      // Get the pixel color at the center of the character
-      let bgColor = get(charCenterX, charCenterY);
+      // // Get the pixel color at the center of the character
+      // let bgColor = get(charCenterX, charCenterY);
       
-      // Calculate the brightness of the background color
-      let brightnessValue = (0.2126 * red(bgColor) + 0.7152 * green(bgColor) + 0.0722 * blue(bgColor));
+      // // Calculate the brightness of the background color
+      // let brightnessValue = (0.2126 * red(bgColor) + 0.7152 * green(bgColor) + 0.0722 * blue(bgColor));
       
-      // Set text color based on the brightness
-      if (brightnessValue > 180) {
-        fill(0); // If the background is too bright, set the text color to black
-      } else {
-        fill(255); // Otherwise, set the text color to white
-      }
+      // // Set text color based on the brightness
+      // if (brightnessValue > 180) {
+      //   fill(0); // If the background is too bright, set the text color to black
+      // } else {
+      //   fill(255); // Otherwise, set the text color to white
+      // }
+
+      fill('white');
       
       // Draw the character at the correct position
       text(line.charAt(i), xPos, yPos);

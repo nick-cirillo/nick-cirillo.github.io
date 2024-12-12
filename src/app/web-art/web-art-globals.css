@@ -1,0 +1,131 @@
+
+/* PP Migra Font Import */
+
+/* Regular - Medium */
+@font-face {
+    font-family: 'PP Migra';
+    src: url('/fonts/Migra/PPMigra-Medium.woff') format('woff');
+    font-weight: 500;  /* Medium */
+    font-style: normal;
+  }
+  
+  /* Extralight */
+  @font-face {
+    font-family: 'PP Migra';
+    src: url('/fonts/Migra/PPMigra-Extralight.woff') format('woff');
+    font-weight: 200;  /* Extralight */
+    font-style: normal;
+  }
+  
+  /* Extrabold */
+  @font-face {
+    font-family: 'PP Migra';
+    src: url('/fonts/Migra/PPMigra-Extrabold.woff') format('woff');
+    font-weight: 800;  /* Extrabold */
+    font-style: normal;
+  }
+  
+  /* Italic Extrabold */
+  @font-face {
+    font-family: 'PP Migra';
+    src: url('/fonts/Migra/PPMigra-ExtraboldItalic.woff') format('woff');
+    font-weight: 800;  /* Extrabold */
+    font-style: italic;
+  }
+  
+  /* Italic Extralight */
+  @font-face {
+    font-family: 'PP Migra';
+    src: url('/fonts/Migra/PPMigra-ExtralightItalic.woff') format('woff');
+    font-weight: 200;  /* Extralight */
+    font-style: italic;
+  }
+  
+
+/* Black */
+@font-face {
+    font-family: 'Circular';
+    src: url('/fonts/CircularStd-Black.woff') format('woff');
+    font-weight: 900;  /* Black weight */
+    font-style: normal;
+  }
+  
+  /* Black Italic */
+  @font-face {
+    font-family: 'Circular';
+    src: url('/fonts/Circular/CircularStd-BlackItalic.woff') format('woff');
+    font-weight: 900;  /* Black weight */
+    font-style: italic;
+  }
+  
+  /* Bold */
+  @font-face {
+    font-family: 'Circular';
+    src: url('/fonts/Circular/CircularStd-Bold.woff') format('woff');
+    font-weight: 700;  /* Bold weight */
+    font-style: normal;
+  }
+  
+  /* Bold Italic */
+  @font-face {
+    font-family: 'Circular';
+    src: url('/fonts/Circular/CircularStd-BoldItalic.woff') format('woff');
+    font-weight: 700;  /* Bold weight */
+    font-style: italic;
+  }
+  
+  /* Book */
+  @font-face {
+    font-family: 'Circular';
+    src: url('/fonts/Circular/CircularStd-Book.woff') format('woff');
+    font-weight: 400;  /* Book weight (regular) */
+    font-style: normal;
+  }
+  
+  /* Book Italic */
+  @font-face {
+    font-family: 'Circular';
+    src: url('/fonts/Circular/CircularStd-BookItalic.woff') format('woff');
+    font-weight: 400;  /* Book weight (regular) */
+    font-style: italic;
+  }
+  
+  /* Medium */
+  @font-face {
+    font-family: 'Circular';
+    src: url('/fonts/Circular/CircularStd-Medium.woff') format('woff');
+    font-weight: 500;  /* Medium weight */
+    font-style: normal;
+  }
+  
+  /* Medium Italic */
+  @font-face {
+    font-family: 'Circular';
+    src: url('/fonts/Circular/CircularStd-MediumItalic.woff') format('woff');
+    font-weight: 500;  /* Medium weight */
+    font-style: italic;
+  }
+  
+  
+
+:root {
+    --baby-powder: #FCFFFA;
+    --lapis-lazuli: #23619B;
+    --atomic-tangerine: #FF904C;
+    --school-bus-yellow: #FCDC06;
+    --oxford-blue: #1C2237;
+    --ruddy-blue: #81B4E2;
+    --apricot: #FFCAA9;
+    --flax: #FEEE88;
+    --glaucous: #7685BA;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+::selection {
+    background: var(--apricot);
+    color: var(--oxford-blue);
+}
