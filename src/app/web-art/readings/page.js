@@ -51,7 +51,7 @@ export default function Home() {
 
       <div className="content">
         <div className="title-section">
-          <a className="button-container" href="./">
+          <a className="button-container" href="/web-art/about">
             <div className="back-button">
               <img 
                 className="back-icon"

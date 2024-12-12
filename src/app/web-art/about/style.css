@@ -197,7 +197,7 @@ body {
 
     color: var(--oxford-blue);
     text-align: center;
-    font-family: "PP Migra Italic";
+    font-family: "PP Migra";
     font-size: 40px;
     font-style: italic;
     font-weight: 800;
@@ -279,7 +279,7 @@ body {
     align-self: stretch;
 
     color: var(--oxford-blue);
-    font-family: "PP Migra Italic";
+    font-family: "PP Migra";
     font-size: 50px;
     font-style: italic;
     font-weight: 800;
