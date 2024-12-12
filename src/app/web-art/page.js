@@ -9,7 +9,7 @@ export default function Home() {
     <div id="page-container">
         <div id="pf-large-header">
           <div id="pf-header-banner">
-            <a id="pf-readings-button" href="./web-art/readings">
+            <a id="pf-readings-button" href="/web-art/readings">
               <img 
                 id="pf-readings-icon"
                 src="/icons/open-book.webp" 
@@ -75,7 +75,7 @@ export default function Home() {
               assignment="SECTION 3 - ASSIGNMENT 1" 
               section="3" 
               title="Rock-Paper-Scissors Tournament"
-            />
+            />  
             <PortfolioItem 
               filename="ifttt-applet"
               assignment="SECTION 3 - ASSIGNMENT 2" 

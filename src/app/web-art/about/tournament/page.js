@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="s3">
       <div id="pf-header-banner">
-          <a id="pf-readings-button" href="./web-art/readings">
+          <a id="pf-readings-button" href="/web-art/readings">
             <img 
               id="pf-readings-icon"
               src="/icons/open-book.webp" 
@@ -38,7 +38,7 @@ export default function Home() {
           <div className="header-container">
             <p className="label">SECTION 3 - ASSIGNMENT 1</p>
             <p className="title">Rock-Paper-Scissors Tournament</p>
-            <p className="subtitle">subtitle</p>
+            <p className="subtitle">Rock paper scissors lizard Spock</p>
             <a className="visit" href="/web-art/tournament">VISIT PROJECT</a>
           </div>
         </div>
@@ -57,10 +57,11 @@ export default function Home() {
         <div className="content-section">
           <div className="text-container">
             <p className="section-label">CREATIVE BRIEF</p>
-            <p className="section-title">Online Publication / Grid Layout</p>
-            <p className="section-quote">&ldquo;Students will create an online publication (fan site, zine, exhibition, etc) 
-              that includes 3-5 separate pages and a navigational tool/toolset. No single page and its linked content can be 
-              larger than 5 megabytes.&rdquo;</p>
+            <p className="section-title">Performable Program / Script</p>
+            <p className="section-quote">&ldquo;Individually or in small groups of 2 or 3, students will design and write 
+              a program or script to be performed. This can be taken literally, as in your script is intended to be enlivened 
+              by actors. This can be taken loosely and all terms can be creatively interpreted. Regardless, all performances
+               must incorporate learned principles of scripted &lsquo;functions,&rsquo; and must also include an element of &lsquo;chance.&rsquo;&rdquo;</p>
           </div>
         </div>
 
@@ -71,19 +72,16 @@ export default function Home() {
             muted 
             playsInline
           >
-            <source src="/web-art-portfolio/thumbnail-gifs/album-art-collage.webm" type="video/webm"/>
+            <source src="/tournament-video/tournament.mp4" type="video/mp4"/>
           </video>
           <div className="text-container">
-            <p className="section-label">ONLINE PUBLICATION</p>
-            <p className="section-title">Interactive Collage</p>
+            <p className="section-label">SCRIPT</p>
+            <p className="section-title">Tournament Rules</p>
             <div className="section-body">
-              I created this interactive collage to mash up album art from 
-              some of my favorite musicians in an interactive way. 
-              Easy to spot are R.E.M., Steely Dan, 
-              and System of a Down.
+              My teammates Shruthi and Quinn had the idea of running a rock-paper-scissors tournament at a meeting for Theta Tau, 
+              an engineering fraterinity at Penn in which they are members. Our &lsquo;script,&rsquo; then, was the ruleset of the tournament.
               <div className="section-body-break"/>
-              Hovering over a visual element highlights it, and a click leads you to a song from
-              the corresponding album. There are ten tracks in total hidden in the collage.
+              Shruthi and Quinn recorded the tournament using a classroom camera, which captured the entire event overhead.
             </div>
         
           </div>
@@ -91,17 +89,12 @@ export default function Home() {
 
         <div className="content-section">
           <div className="text-container">
-            <p className="section-label">GRID LAYOUT</p>
-            <p className="section-title">Song Pages</p>
+            <p className="section-label">PRESENTATION</p>
+            <p className="section-title">Webpage</p>
             <div className="section-body">
-              Each piece of album art leads to a page for a track on that album. 
-              Each of these pages highlights an <a className="section-body-link" href="./ascii-album-art" target="_blank" rel="noopener noreferrer">
-                 ASCII-fied version of the album art,
-              </a> and shows the lyrics to the song.
-              The elements of the page are arranged in a column using flexbox, satisfying the grid layout objective.
-              <div className="section-body-break"/>
-              You can also listen to the song with the Play button, which should play a hidden YouTube embed. 
-              It can be inconsistent, so try reloading the page if it doesn&apos;t work.
+              I created a webpage to display the tournament video, embedding it into the page and adding the tournament winners and ruleset. I 
+              used a variety of fonts and colors to give the page a &ldquo;my dad was the webmaster in the 90&apos;s and he
+              uploaded this video&rdquo; vibe.
             </div>
           </div>
           <video className="section-image section-image-wide"
@@ -110,27 +103,8 @@ export default function Home() {
             muted 
             playsInline
           >
-            <source src="/web-art-portfolio/about-page-videos/album-art-collage/song-pages.webm" type="video/webm"/>
+            <source src="/web-art-portfolio/thumbnail-gifs/tournament.webm" type="video/webm"/>
           </video>
-        </div>
-
-        <div className="content-section">
-          <div className="section-image" >
-            <video className="section-image-narrow"
-              autoPlay
-              loop
-              muted
-              playsInline
-            >
-              <source src="/web-art-portfolio/about-page-videos/album-art-collage/mobile-layout.webm" type="video/webm"/>
-            </video>
-          </div>
-          <div className="text-container">
-            <p className="section-label">EXTRAS</p>
-            <p className="section-title">Responsive Layout</p>
-            <p className="section-body">Using @media rules, I created a separate mobile layout. 
-              Since phone screens are in portrait rather than landscape, I had to fine-tune the size of the hover effects quite precisely. </p>
-          </div>
         </div>
       </div>
     </div>

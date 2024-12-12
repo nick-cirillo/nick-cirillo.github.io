@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="s3">
       <div id="pf-header-banner">
-          <a id="pf-readings-button" href="./web-art/readings">
+          <a id="pf-readings-button" href="/web-art/readings">
             <img 
               id="pf-readings-icon"
               src="/icons/open-book.webp" 
@@ -39,11 +39,11 @@ export default function Home() {
             <p className="label">SECTION 3 - ASSIGNMENT 2</p>
             <p className="title">IFTTT Applet</p>
             <p className="subtitle">I&apos;m lovin&apos; it</p>
-            <a className="visit" href="https://quinn2liu.github.io/section3assignment2/index.html" target="_blank" rel="noopener noreferrer">VISIT PROJECT</a>
+            <a className="visit" href="/web-art/ifttt-applet">VISIT PROJECT</a>
           </div>
         </div>
 
-        <a className="content-section" href="https://quinn2liu.github.io/section3assignment2/index.html" target="_blank" rel="noopener noreferrer">
+        <a className="content-section" href="/web-art/ifttt-applet">
           <video className="project-image" 
               autoPlay 
               loop 
@@ -58,32 +58,27 @@ export default function Home() {
           <div className="text-container">
             <p className="section-label">CREATIVE BRIEF</p>
             <p className="section-title">Online Publication / Grid Layout</p>
-            <p className="section-quote">&ldquo;Students will create an online publication (fan site, zine, exhibition, etc) 
-              that includes 3-5 separate pages and a navigational tool/toolset. No single page and its linked content can be 
-              larger than 5 megabytes.&rdquo;</p>
+            <p className="section-quote">&ldquo;An API (Application Programming Interface) allows applications, tools, or services 
+              to safely &lsquo;share&rsquo; restricted data with other applications, tools, or services. The availability of this &lsquo;public-facing&rsquo;
+               data allows developers to build connected/supplementary platforms that may ease or augment a user&apos;s experience. 
+               In teams of two (+), students will work together to create and execute an interactive design tool that employs API 
+               linking with IFTTT (If This Then That). Teams must also design and develop a website that serves to promote this tool
+                and document its real-life application and usage.&rdquo;</p>
           </div>
         </div>
 
         <div className="content-section">
-          <video className="section-image section-image-wide" 
-            autoPlay 
-            loop 
-            muted 
-            playsInline
-          >
-            <source src="/web-art-portfolio/thumbnail-gifs/album-art-collage.webm" type="video/webm"/>
-          </video>
+          <img className="section-image section-image-wide" src="/web-art-portfolio/about-page-videos/ifttt-applet/applet.webp"></img>
           <div className="text-container">
-            <p className="section-label">ONLINE PUBLICATION</p>
-            <p className="section-title">Interactive Collage</p>
+            <p className="section-label">APPLET</p>
+            <p className="section-title">IFTTT Integration</p>
             <div className="section-body">
-              I created this interactive collage to mash up album art from 
-              some of my favorite musicians in an interactive way. 
-              Easy to spot are R.E.M., Steely Dan, 
-              and System of a Down.
-              <div className="section-body-break"/>
-              Hovering over a visual element highlights it, and a click leads you to a song from
-              the corresponding album. There are ten tracks in total hidden in the collage.
+              My teammates Quinn, Shruthi, Anastasia, and I played around with a few different ideas before settling on a McDonald&apos;s-themed
+               applet that integrates with Slack. We decided to play into the silliness of connecting McDonald&apos;s, a fast food restaurant,
+                with a professional messaging application.
+                <div className="section-body-break"/>
+                In this applet, if the user enters the radius of a certain University City McDonald&apos;s,
+                 their Slack account will automatically broadcast a message to a specific channel asking everyone to join them at McDonald&apos;s.
             </div>
         
           </div>
@@ -91,17 +86,14 @@ export default function Home() {
 
         <div className="content-section">
           <div className="text-container">
-            <p className="section-label">GRID LAYOUT</p>
-            <p className="section-title">Song Pages</p>
+            <p className="section-label">PROMOTION</p>
+            <p className="section-title">Webpage</p>
             <div className="section-body">
-              Each piece of album art leads to a page for a track on that album. 
-              Each of these pages highlights an <a className="section-body-link" href="./ascii-album-art" target="_blank" rel="noopener noreferrer">
-                 ASCII-fied version of the album art,
-              </a> and shows the lyrics to the song.
-              The elements of the page are arranged in a column using flexbox, satisfying the grid layout objective.
+              Our team also created a webpage to promote our applet. Quinn started off the design by adding a gradient of McDonald&apos;s colors,
+              as well as by adding an AI-generated image of a lonely customer.
               <div className="section-body-break"/>
-              You can also listen to the song with the Play button, which should play a hidden YouTube embed. 
-              It can be inconsistent, so try reloading the page if it doesn&apos;t work.
+              I finished off the webpage by adding pleasing drop shadows, unifying the layout with flexbox, linking the IFTTT applet, 
+              and adjusting the copy.
             </div>
           </div>
           <video className="section-image section-image-wide"
@@ -110,27 +102,8 @@ export default function Home() {
             muted 
             playsInline
           >
-            <source src="/web-art-portfolio/about-page-videos/album-art-collage/song-pages.webm" type="video/webm"/>
+            <source src="/web-art-portfolio/thumbnail-gifs/ifttt-applet.webm" type="video/webm"/>
           </video>
-        </div>
-
-        <div className="content-section">
-          <div className="section-image" >
-            <video className="section-image-narrow"
-              autoPlay
-              loop
-              muted
-              playsInline
-            >
-              <source src="/web-art-portfolio/about-page-videos/album-art-collage/mobile-layout.webm" type="video/webm"/>
-            </video>
-          </div>
-          <div className="text-container">
-            <p className="section-label">EXTRAS</p>
-            <p className="section-title">Responsive Layout</p>
-            <p className="section-body">Using @media rules, I created a separate mobile layout. 
-              Since phone screens are in portrait rather than landscape, I had to fine-tune the size of the hover effects quite precisely. </p>
-          </div>
         </div>
       </div>
     </div>

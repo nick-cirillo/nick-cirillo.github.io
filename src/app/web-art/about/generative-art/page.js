@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="s3">
       <div id="pf-header-banner">
-          <a id="pf-readings-button" href="./web-art/readings">
+          <a id="pf-readings-button" href="/web-art/readings">
             <img 
               id="pf-readings-icon"
               src="/icons/open-book.webp" 
@@ -57,33 +57,27 @@ export default function Home() {
         <div className="content-section">
           <div className="text-container">
             <p className="section-label">CREATIVE BRIEF</p>
-            <p className="section-title">Online Publication / Grid Layout</p>
-            <p className="section-quote">&ldquo;Students will create an online publication (fan site, zine, exhibition, etc) 
-              that includes 3-5 separate pages and a navigational tool/toolset. No single page and its linked content can be 
-              larger than 5 megabytes.&rdquo;</p>
+            <p className="section-title">Generative Art</p>
+            <p className="section-quote">&ldquo;Using p5.js, students will program a generative design that employs functions,
+               loops, and conditionals. Designs must also incorporate an element of randomness or chance in their code. Students 
+               will work to embed this design within a separate website that also incorporates designed and user-interactive elements.&rdquo;</p>
           </div>
         </div>
 
         <div className="content-section">
-          <video className="section-image section-image-wide" 
-            autoPlay 
-            loop 
-            muted 
-            playsInline
-          >
-            <source src="/web-art-portfolio/thumbnail-gifs/album-art-collage.webm" type="video/webm"/>
-          </video>
+          <div className="section-image">
+          <img className="section-image-narrow" src="/web-art-portfolio/about-page-videos/generative-art/inrainbowscover.webp"/>
+          </div>
           <div className="text-container">
-            <p className="section-label">ONLINE PUBLICATION</p>
-            <p className="section-title">Interactive Collage</p>
+            <p className="section-label">INSPIRATION</p>
+            <p className="section-title">In Rainbows</p>
             <div className="section-body">
-              I created this interactive collage to mash up album art from 
-              some of my favorite musicians in an interactive way. 
-              Easy to spot are R.E.M., Steely Dan, 
-              and System of a Down.
-              <div className="section-body-break"/>
-              Hovering over a visual element highlights it, and a click leads you to a song from
-              the corresponding album. There are ten tracks in total hidden in the collage.
+              I was interested in creating a program with some degree of interactivity. As I have often done in this class, I looked to
+              music for inspiration. The cover to Radiohead&apos;s <span style={{fontStyle: 'italic'}}>In Rainbows,</span> created by Stanley Donwood, piqued my interest, and 
+              made me think about how words can overlay with visuals.
+              <div className="section-body-break"></div> 
+              Thus, when creating my generative art piece, I sought to dynamically create a sort of colorful picture with text overlayed.
+              I even used the same font, Transport, to call back more directly to this piece.
             </div>
         
           </div>
@@ -91,17 +85,21 @@ export default function Home() {
 
         <div className="content-section">
           <div className="text-container">
-            <p className="section-label">GRID LAYOUT</p>
-            <p className="section-title">Song Pages</p>
+            <p className="section-label">P5.JS PROGRAM</p>
+            <p className="section-title">Generative Keypresses</p>
             <div className="section-body">
-              Each piece of album art leads to a page for a track on that album. 
-              Each of these pages highlights an <a className="section-body-link" href="./ascii-album-art" target="_blank" rel="noopener noreferrer">
-                 ASCII-fied version of the album art,
-              </a> and shows the lyrics to the song.
-              The elements of the page are arranged in a column using flexbox, satisfying the grid layout objective.
-              <div className="section-body-break"/>
-              You can also listen to the song with the Play button, which should play a hidden YouTube embed. 
-              It can be inconsistent, so try reloading the page if it doesn&apos;t work.
+              To begin, the page suggests that it is an empty space for one's thoughts. No indication of interactivity is given, so the 
+              piece is unveiled only to the curious visitor who tries to start typing. Typing a consonant will create red, green, or blue circles; 
+              typing a vowel will create cyan, magenta, or yellow circles; typing anything else creates a black or white rectangle or triangle.
+              <div className="section-body-break"></div>
+              As for the themes of the piece - the contemplative text suggests a journaling environment,
+              which is why I named the piece &lsquo;Generative Journal,&rsquo; but really, anything can be typed. 
+              <div className="section-body-break"></div>
+              In the video to the right,
+              I am typing the lyrics to &ldquo;Nude&rdquo; from <span style={{fontStyle: 'italic'}}>In Rainbows,</span> which contains the phrase
+              &ldquo;Paint yourself white / and fill up with noise.&rdquo; These lyrics, which I found only after completing this project, felt 
+              relevant to what I had created: Despite starting with a blank canvas, one eventually fills with noise, which can obscure and confuse
+              our thoughts and words.
             </div>
           </div>
           <video className="section-image section-image-wide"
@@ -110,27 +108,8 @@ export default function Home() {
             muted 
             playsInline
           >
-            <source src="/web-art-portfolio/about-page-videos/album-art-collage/song-pages.webm" type="video/webm"/>
+            <source src="/web-art-portfolio/thumbnail-gifs/generative-art.webm" type="video/webm"/>
           </video>
-        </div>
-
-        <div className="content-section">
-          <div className="section-image" >
-            <video className="section-image-narrow"
-              autoPlay
-              loop
-              muted
-              playsInline
-            >
-              <source src="/web-art-portfolio/about-page-videos/album-art-collage/mobile-layout.webm" type="video/webm"/>
-            </video>
-          </div>
-          <div className="text-container">
-            <p className="section-label">EXTRAS</p>
-            <p className="section-title">Responsive Layout</p>
-            <p className="section-body">Using @media rules, I created a separate mobile layout. 
-              Since phone screens are in portrait rather than landscape, I had to fine-tune the size of the hover effects quite precisely. </p>
-          </div>
         </div>
       </div>
     </div>

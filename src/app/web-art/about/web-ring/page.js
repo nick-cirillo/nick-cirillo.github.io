@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="s2">
       <div id="pf-header-banner">
-          <a id="pf-readings-button" href="./web-art/readings">
+          <a id="pf-readings-button" href="/web-art/readings">
             <img 
               id="pf-readings-icon"
               src="/icons/open-book.webp" 

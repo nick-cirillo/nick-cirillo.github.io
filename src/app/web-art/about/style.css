@@ -1,18 +1,53 @@
 .s1 {
     --accent-color: var(--school-bus-yellow);
+    --accent-text-color: var(--oxford-blue);
 }
 
 .s2 {
     --accent-color: var(--atomic-tangerine);
+    --accent-text-color: var(--oxford-blue);
 }
 
 .s3 {
     --accent-color: var(--lapis-lazuli);
+    --accent-text-color: var(--baby-powder);
 }
 
 body {
     background-color: var(--baby-powder);
 
+}
+
+.pf-top-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: var(--oxford-blue);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.1s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+.pf-top-button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.pf-top-button:hover {
+    transform: translateY(-5px);
+}
+
+.pf-top-icon {
+    width: 24px;
+    height: 24px;
 }
 
 #pf-header-banner {
@@ -180,7 +215,7 @@ body {
     border-radius: 10px;
     background: var(--accent-color);
 
-    color: var(--oxford-blue);
+    color: var(--accent-text-color);
     text-align: center;
     font-family: "Circular";
     font-size: 20px;
@@ -203,6 +238,17 @@ body {
     /* padding: 0px 0%; */
     justify-content: center;
     align-items: center;
+    align-self: stretch;
+    /* gap: 100px; */
+    gap: 10%;
+}
+
+.content-section-top {
+    display: flex;
+    /* padding: 0px 100px; */
+    /* padding: 0px 0%; */
+    justify-content: center;
+    align-items: flex-start;
     align-self: stretch;
     /* gap: 100px; */
     gap: 10%;
