@@ -19,7 +19,7 @@ export default function Page() {
                 environment of the fast-food chain." />
                 <div class="mcds-text">
                     <div class="you">Is this you?</div>
-                    <div class="you">All alone at McDonald's with nobody to share fries with?</div>
+                    <div class="you">All alone at McDonald&apos;s with nobody to share fries with?</div>
                 </div>
             </div>
             <div class="applet">
@@ -30,7 +30,7 @@ export default function Page() {
                     </a>
                     <img class="applet-image" src="/ifttt-applet/PLACEHOLDER.PNG" alt="A screenshot of Slack messages between two friends demonstrating the applet's functionality."/>
                 </div>
-                <div class="applet-description">With this applet, you can set location of your nearest McDonald's - so whenever you enter, your friends will be notified to come hang out. Never eat a Big Mac alone again!</div>
+                <div class="applet-description">With this applet, you can set location of your nearest McDonald&apos;s - so whenever you enter, your friends will be notified to come hang out. Never eat a Big Mac alone again!</div>
             </div>
             <div class="connect">
                 <div class="connect-text">Try it out below!</div>

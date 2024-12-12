@@ -104,11 +104,11 @@ export default function Home() {
             I&apos;m co-leading one of Penn&apos;s most prominent web development organizations, and I don&apos;t even have my own website? In fact, I&apos;ve 
             barely even tried.
             <div className="section-body-break"/>
-            I know why, now. It&apos;s a lack of purpose for the thing. I don't need nicholascirillo.com to be a second resume - a collection of 
+            I know why, now. It&apos;s a lack of purpose for the thing. I don&apos;t need nicholascirillo.com to be a second resume - a collection of 
             completed works, to paraphrase Schwulst. It&apos;s too corporate. I already have a second resume and it is called linkedin dot com 
             slash nicholas dash cirillo dash slash. And that is far and beyond corporate enough for me.
             <div className="section-body-break"/>
-            What to make it, then? I don't know, but I&apos;m sure I will spend some time chewing on those metaphors - house, bookshelf, plant, garden, puddle 
+            What to make it, then? I don&apos;t know, but I&apos;m sure I will spend some time chewing on those metaphors - house, bookshelf, plant, garden, puddle 
             - and slowly drip drop some ideas into a cool little website. 
             <div className="section-body-break"/>
             Édouard&apos;s reading did not click with me as much. I love the feeling of being absorbed into a linear narrative, and I don&apos;t know if I can give 
