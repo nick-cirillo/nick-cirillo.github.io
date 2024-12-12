@@ -1,7 +1,7 @@
 import "./portfolio-item.css";
 import { useRef, useEffect } from 'react';
 
-export default function PortfolioItem({ filename, assignment, section, title }) {
+export default function PortfolioItem({ filename, assignment, section, title, autoplay=false }) {
     const videoRef = useRef(null);
     const itemRef = useRef(null);
 
@@ -33,6 +33,7 @@ export default function PortfolioItem({ filename, assignment, section, title }) 
             <div className={`pf-thumbnail-border-s${section}`}>
                 <video 
                     ref={videoRef} 
+                    autoPlay={autoplay}
                     className="pf-thumbnail" 
                     loop 
                     muted 

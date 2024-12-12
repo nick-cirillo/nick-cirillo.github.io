@@ -29,7 +29,7 @@ export default function Home() {
         </div>
         
         <div id="pf-grid">
-          <div className="pf-grid-row">
+          <div className="pf-grid-col">
             <PortfolioItem 
               filename="ascii-album-art"
               assignment="SECTION 1 - ASSIGNMENT 1" 
@@ -47,9 +47,11 @@ export default function Home() {
               assignment="SECTION 1 - FINAL PROJECT"
               section="1" 
               title="Album Art Collage"
+              autoplay="true"
             />
+            <div className="pf-section-label-s1"><p>SECTION 1</p>&nbsp;↑</div>
           </div>
-          <div className="pf-grid-row">
+          <div className="pf-grid-col">
             <PortfolioItem 
               filename="web-ring"
               assignment="SECTION 2 - ASSIGNMENT 1" 
@@ -67,9 +69,11 @@ export default function Home() {
               assignment="SECTION 2 - FINAL PROJECT" 
               section="2" 
               title="Pong Clock"
+              autoplay="true"
             />
+            <div className="pf-section-label-s2"><p>SECTION 2</p>&nbsp;↑</div>
           </div>
-          <div className="pf-grid-row">
+          <div className="pf-grid-col">
             <PortfolioItem 
               filename="tournament"
               assignment="SECTION 3 - ASSIGNMENT 1" 
@@ -87,7 +91,9 @@ export default function Home() {
               assignment="SECTION 3 - FINAL PROJECT" 
               section="3" 
               title="Generative Journal"
+              autoplay="true"
             />
+            <div className="pf-section-label-s3"><p>SECTION 3 </p>&nbsp;↑</div>
           </div>
         </div>
     </div>
