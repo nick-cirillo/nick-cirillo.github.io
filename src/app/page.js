@@ -6,27 +6,33 @@ export default function Home() {
     <div>
       <div className="app-content">
         <div className="text-content">
-          <p className="title-text">nick cirillo&apos;s website.</p>
-          
-          <p>if you&apos;re here for professional stuff, my&nbsp;
-            <a href="https://linkedin.com/in/nicholas-cirillo-/" target="_blank" rel="noopener noreferrer">linkedin</a> and&nbsp; 
-            <a href="https://github.com/nick-cirillo" target="_blank" rel="noopener noreferrer">github</a>. you can also find my 
-            web art portfolio <a href="./web-art">here</a>!</p>
+          <p className="title-text">nick cirillo</p>
 
-          <p>it&apos;s a compilation of work from one specific design course, and it showcases lots of frontend + fun web stuff. 
-            I&apos;ll compile a more holistic portfolio eventually.</p>
+          <p>I'm a student at the University of Pennsylvania, and soon I'll be working at Northslope Technologies.</p>
 
-          <p>for now, here is a picture of Timber :)</p>
+          <p>
+            <a href="https://linkedin.com/in/nicholas-cirillo-/" target="_blank" rel="noopener noreferrer">linkedin</a>
+          </p>
+          <p>
+            <a href="https://github.com/nick-cirillo" target="_blank" rel="noopener noreferrer">github</a>
+          </p>
 
-          <p>if you&apos;d like to reach me, the best bet is through linkedin as I get emails whenever someone connects with me.</p>
-          
+          <p>
+            <a href="https://instagram.com/nick.pics.cirillo/" target="_blank" rel="noopener noreferrer">photography</a> (best viewed on the mobile instagram app)
+          </p>
+
+          <p>
+            <a href="./web-art">web doodles</a> (from penn's dsgn 1020)
+          </p>
+
+
           <div id="social-icons">
-            <a className="social-icon" href="https://linkedin.com/in/nicholas-cirillo-/" target="_blank" rel="noopener noreferrer"><img id="linkedin" src="./social-icons/linkedin.svg" alt="the Linkedin logo"/></a>
-            <a className="social-icon" href="https://github.com/nick-cirillo/" target="_blank" rel="noopener noreferrer"><img id="github" src="./social-icons/github.svg" alt="the GitHub logo"/></a>
-            <a className="social-icon" href="https://instagram.com/nick.p.cirillo/" target="_blank" rel="noopener noreferrer"><img id="instagram" src="./social-icons/instagram.svg" alt="the Instagram logo"/></a>
+            <a className="social-icon" href="https://linkedin.com/in/nicholas-cirillo-/" target="_blank" rel="noopener noreferrer"><img id="linkedin" src="./social-icons/linkedin.svg" alt="the Linkedin logo" /></a>
+            <a className="social-icon" href="https://github.com/nick-cirillo/" target="_blank" rel="noopener noreferrer"><img id="github" src="./social-icons/github.svg" alt="the GitHub logo" /></a>
+            <a className="social-icon" href="https://instagram.com/nick.pics.cirillo/" target="_blank" rel="noopener noreferrer"><img id="instagram" src="./social-icons/instagram.svg" alt="the Instagram logo" /></a>
           </div>
         </div>
-        <img className="image" id="timber" src="./homepage/timber.jpg" alt="a photo of Timber, the world's cutest puppy"/>
+        <img className="image" id="timber" src="./homepage/timber.jpg" alt="a photo of Timber, the world's cutest puppy" />
       </div>
     </div>
   );
